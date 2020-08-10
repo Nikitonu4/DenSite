@@ -220,13 +220,13 @@ button:focus {
 .md_navigation {
 	float: left;
 	width: 100%;
-	padding: 30px 0px;
+	padding: 10px 0px;
 }
 
 .menu_fixed {
 	position: fixed;
 	z-index: 1000;
-	padding: 15px 0px;
+	padding: 10px 0px;
 	background: white;
 	box-shadow: 0px -5px 20px;
 }
@@ -242,6 +242,7 @@ button:focus {
 	float: left;
 	width: 100%;
 	margin: 0;
+	margin-bottom: 0;
 }
 
 .md_navigation_menu ul li {
@@ -251,7 +252,7 @@ button:focus {
 .md_navigation_menu ul li a {
 	float: left;
 	padding: 13px 20px;
-	font-size: 17px;
+	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: bold;
 	-webkit-transition: all 0.3s;
@@ -270,7 +271,7 @@ button:focus {
 	width: 0%;
 	height: 100%;
 	z-index: -1;
-	background: #1990ce;
+	background: #F8A335;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -286,7 +287,7 @@ button:focus {
 	width: 0%;
 	height: 100%;
 	z-index: -1;
-	background: #1990ce;
+	background: #F8A335;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -322,7 +323,7 @@ button:focus {
 }
 
 .md_navigation_app_button .md_app_button {
-	background: #1990ce;
+	background: #006a91;
 	border: none;
 	font-size: 18px;
 	padding: 5px 25px;
