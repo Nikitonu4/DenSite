@@ -36,7 +36,7 @@
 	<!-- preloader section end -->
 
 	<!-- header section start -->
-	<div data-scroll-index='0' style="width:100%;float:left;">
+	<!-- <div data-scroll-index='0' style="width:100%;float:left;" class="main">
 		<div class="md_header_wrapper">
 			<div class="md_top_header">
 				<div class="container">
@@ -45,9 +45,9 @@
 							<div class="md_top_haeder_logo">
 								<a href="index.html"><img alt="" src="images/logo.png" class="img-responsive"></a>
 							</div>
-						</div>
+						</div> -->
 
-						<div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+	<!-- <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
 							<div class="md_contact_hour">
 								<h5>Часы работы</h5>
 								<ul>
@@ -55,130 +55,133 @@
 									<li>Суббота - воскрсенье<span>10.00 - 14.00</span></li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 
 
-						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+	<!-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 							<div class="md_top_header_contact">
 								<ul>
-									<li><i class="fa fa-map-marker"></i><span>152321, Ярославская область <br>пос. Константиновский
-											ул.Садовая, д.2</span></li>
+
 									<li><i class="fa fa-phone"></i><span>+7 903 822 97 47 <br> +7 915 998 02 29</span></li>
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
+			</div> -->
+
+
+
+	<div class="md_navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+					<div class="md_top_haeder_logo">
+						<a href="index.html"><img alt="" src="images/logo.png" class="img-responsive"></a>
+					</div>
+				</div>
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+					<div class="md_navigation_menu md_single_page_menu">
+						<ul>
+							<li><a href="0">Главная</a></li>
+							<li><a href="1">О нас</a></li>
+							<li><a href="2">Услуги</a></li>
+							<li><a href="3">Врачи</a></li>
+
+							<li><a href="5">Контакты</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="md_navigation_app_button">
+						<button class="md_app_button" data-toggle="modal" data-target="#appointment">Заказать обратный
+							звонок</button>
+						<button class="md_menu_btn"><i class="fa fa-bars"></i></button>
+					</div>
+				</div>
 			</div>
+		</div>
+	</div>
+	</div>
+	<!-- header section end -->
 
 
-
-			<div class="md_navigation">
-				<div class="container">
+	<!-- callback start -->
+	<div class="modal fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+							aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Обратный звонок</h4>
+				</div>
+				<div class="modal-body">
 					<div class="row">
-						<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-							<div class="md_navigation_menu md_single_page_menu">
-								<ul>
-									<li><a href="0">Главная</a></li>
-									<li><a href="1">О нас</a></li>
-									<li><a href="2">Услуги</a></li>
-									<li><a href="3">Врачи</a></li>
-									<li><a href="4">Галерея</a></li>
-									<li><a href="5">Контакты</a></li>
-								</ul>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="md_modal_form_group">
+								<input type="text" class="form-control" placeholder="Имя*">
 							</div>
 						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<div class="md_navigation_app_button">
-								<button class="md_app_button" data-toggle="modal" data-target="#appointment">Заказать обратный
-									звонок</button>
-								<button class="md_menu_btn"><i class="fa fa-bars"></i></button>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="md_modal_form_group">
+								<input type="text" class="form-control" placeholder="Фамилия*">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="md_modal_form_group">
+								<input type="text" class="form-control" placeholder="Телефон*">
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="md_modal_form_group">
+								<input type="text" class="form-control" placeholder="Услуга">
 							</div>
 						</div>
 					</div>
+
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="md_button">Заказать звонок</button>
 				</div>
 			</div>
 		</div>
-		<!-- header section end -->
+	</div>
+	<!-- callback section end-->
 
-
-		<!-- callback start -->
-		<div class="modal fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-								aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Обратный звонок</h4>
-					</div>
-					<div class="modal-body">
+	<!-- slider section start -->
+	<div class="md_slider_wrapper">
+		<div class="owl-carousel owl-theme">
+			<div class="item">
+				<div class="md_slider_bg">
+					<div class="container">
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="md_modal_form_group">
-									<input type="text" class="form-control" placeholder="Имя*">
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="md_modal_form_group">
-									<input type="text" class="form-control" placeholder="Фамилия*">
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="md_modal_form_group">
-									<input type="text" class="form-control" placeholder="Телефон*">
-								</div>
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<div class="md_modal_form_group">
-									<input type="text" class="form-control" placeholder="Услуга">
+							<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+								<div class="md_slider_bg_content">
+									<img alt="" src="images/icon1.png" class="img-responsive">
+									<h1>Здесь какой-нибудь лозунг <br>будет карусель</h1>
+									<p>Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Инициал
+										использовало деревни города речью рукописи от всех, текстов щеке безопасную послушавшись текст
+										страну алфавит первую, раз взгляд оксмокс путь всеми!</p>
+									<button class="md_button blue_button">Learn More</button>
+									<button class="md_button green_button">Get Help Now</button>
 								</div>
 							</div>
 						</div>
-
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="md_button">Заказать звонок</button>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- callback section end-->
-
-		<!-- slider section start -->
-		<div class="md_slider_wrapper">
-			<div class="owl-carousel owl-theme">
-				<div class="item">
-					<div class="md_slider_bg">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-									<div class="md_slider_bg_content">
-										<img alt="" src="images/icon1.png" class="img-responsive">
-										<h1>Здесь какой-нибудь лозунг <br>будет карусель</h1>
-										<p>Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Инициал
-											использовало деревни города речью рукописи от всех, текстов щеке безопасную послушавшись текст
-											страну алфавит первую, раз взгляд оксмокс путь всеми!</p>
-										<button class="md_button blue_button">Learn More</button>
-										<button class="md_button green_button">Get Help Now</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<div class="md_slider_bg">
-						<div class="container">
-							<div class="row">
-								<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-									<div class="md_slider_bg_content">
-										<img alt="" src="images/icon1.png" class="img-responsive">
-										<h1>Life is Short, <br>Smile While you Still Have Teeth</h1>
-										<p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I
-											never was a greater artist than now.</p>
-										<button class="md_button blue_button">Learn More</button>
-										<button class="md_button green_button">Get Help Now</button>
-									</div>
+			<div class="item">
+				<div class="md_slider_bg">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+								<div class="md_slider_bg_content">
+									<img alt="" src="images/icon1.png" class="img-responsive">
+									<h1>Life is Short, <br>Smile While you Still Have Teeth</h1>
+									<p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I
+										never was a greater artist than now.</p>
+									<button class="md_button blue_button">Learn More</button>
+									<button class="md_button green_button">Get Help Now</button>
 								</div>
 							</div>
 						</div>
@@ -187,10 +190,11 @@
 			</div>
 		</div>
 	</div>
+	</div>
 	<!-- slider section end -->
 
 	<!-- about section start -->
-	<div data-scroll-index='1' style="width:100%;float:left;">
+	<div data-scroll-index='1' style="width:100%;float:left;" class="main">
 		<div class="md_about_wrapper">
 			<div class="container-fluid">
 				<div class="row">
@@ -246,7 +250,7 @@
 	<!-- about section end -->
 
 	<!-- service seciton start -->
-	<div data-scroll-index='2' style="width:100%;float:left;">
+	<div data-scroll-index='2' style="width:100%;float:left;" class="main">
 		<div class="md_service_wrapper">
 			<div class="container">
 				<div class="row">
@@ -339,7 +343,7 @@
 	<!-- insurance section end -->
 
 	<!-- team section start -->
-	<div data-scroll-index='3' style="width:100%;float:left;">
+	<div data-scroll-index='3' style="width:100%;float:left;" class="main">
 		<div class="md_team_wrapper">
 			<div class="container">
 				<div class="row">
@@ -398,117 +402,42 @@
 	</div>
 	<!-- team section end -->
 
-	<!-- blog section start -->
-	<div data-scroll-index='4' style="width:100%;float:left;">
-		<div class="md_blog_wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12">
-						<div class="md_blog_heading">
-							<img alt="" src="images/icon1.png">
-							<h2>Our <span>News & Blogs</span></h2>
-							<p>I am alone, and feel the charm of at in this spot created for the bliss of souls like mine. wonderful
-								mornings of spring which I enjoy with my a whole heart.</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="md_blog_caption">
-							<div class="md_blog_caption_heading">
-								<h4>A collection of textile samples. spread out on the table.</h4>
-								<ul>
-									<li><a href="#"><i class="fa fa-user"></i>Angela L. Rogers</a></li>
-									<li><a href="#"><i class="fa fa-calendar"></i>Mar 07,2017</a></li>
-								</ul>
-							</div>
-							<div class="md_blog_caption_img">
-								<img alt="" src="http://via.placeholder.com/358x179" class="img-responsive">
-							</div>
-							<div class="md_blog_caption_body">
-								<p>I should be incapable of drawing a single stroke at the moment that I never greater artist than now.
-								</p>
-								<button class="md_button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="md_blog_caption">
-							<div class="md_blog_caption_heading">
-								<h4>The bedding was hardly able to cover it and seemed ready.</h4>
-								<ul>
-									<li><a href="#"><i class="fa fa-user"></i>Sally B. Williams</a></li>
-									<li><a href="#"><i class="fa fa-calendar"></i>Mar 01,2017</a></li>
-								</ul>
-							</div>
-							<div class="md_blog_caption_img">
-								<img alt="" src="http://via.placeholder.com/358x179" class="img-responsive">
-							</div>
-							<div class="md_blog_caption_body">
-								<p>I should be incapable of drawing a single stroke at the moment that I never greater artist than now.
-								</p>
-								<button class="md_button">Read More</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-						<div class="md_blog_caption">
-							<div class="md_blog_caption_heading">
-								<h4>It showed a lady fitted out with a fur hat and fur boa who sat .</h4>
-								<ul>
-									<li><a href="#"><i class="fa fa-user"></i>Lynn R. Raymond</a></li>
-									<li><a href="#"><i class="fa fa-calendar"></i>Apr 11,2017</a></li>
-								</ul>
-							</div>
-							<div class="md_blog_caption_img">
-								<img alt="" src="http://via.placeholder.com/358x179" class="img-responsive">
-							</div>
-							<div class="md_blog_caption_body">
-								<p>I should be incapable of drawing a single stroke at the moment that I never greater artist than now.
-								</p>
-								<button class="md_button">Read More</button>
-							</div>
-						</div>
+	<!-- testimonial section start -->
+	<div class="md_testimonial_wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12">
+					<div class="md_testimonial_heading">
+						<img alt="" src="images/icon1.png">
+						<h2>Words of <span>Satisfaction</span></h2>
+						<p>I am alone, and feel the charm of at in this spot created for the bliss of souls like mine. wonderful
+							mornings of spring which I enjoy with my a whole heart.</p>
 					</div>
 				</div>
-			</div>
-		</div>
-		<!-- blog section end -->
-
-		<!-- testimonial section start -->
-		<div class="md_testimonial_wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 col-sm-12 col-xs-12">
-						<div class="md_testimonial_heading">
-							<img alt="" src="images/icon1.png">
-							<h2>Words of <span>Satisfaction</span></h2>
-							<p>I am alone, and feel the charm of at in this spot created for the bliss of souls like mine. wonderful
-								mornings of spring which I enjoy with my a whole heart.</p>
-						</div>
+				<div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-sm-12 col-xs-12">
+					<div class="md_testimonial_img">
+						<img alt="" src="http://via.placeholder.com/555x286" class="img-responsive">
 					</div>
-					<div class="col-lg-6 col-md-6 col-lg-push-6 col-md-push-6 col-sm-12 col-xs-12">
-						<div class="md_testimonial_img">
-							<img alt="" src="http://via.placeholder.com/555x286" class="img-responsive">
-						</div>
-					</div>
-					<div class="col-lg-6 col-md-6 col-lg-pull-6 col-md-pull-6 col-sm-12 col-xs-12">
-						<div class="md_testimonial_caption">
-							<p>“I am alone, and feel the charm of at in this spot created for the bliss of souls like mine.A wonderful
-								mornings of spring which I enjoy with my a whole heart. One morning, when Gregor Samsa woke from
-								troubled dreams.”</p>
-							<p><a href="#">Truman B. Reynolds</a></p>
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-						</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-lg-pull-6 col-md-pull-6 col-sm-12 col-xs-12">
+					<div class="md_testimonial_caption">
+						<p>“I am alone, and feel the charm of at in this spot created for the bliss of souls like mine.A wonderful
+							mornings of spring which I enjoy with my a whole heart. One morning, when Gregor Samsa woke from
+							troubled dreams.”</p>
+						<p><a href="#">Truman B. Reynolds</a></p>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+	</div>
 	<!-- testimonial section end -->
 
 	<!-- cta section start -->
-	<div data-scroll-index='5' style="width:100%;float:left;">
+	<div data-scroll-index='5' style="width:100%;float:left;" class="main">
 		<div class="md_cta_wrapper">
 			<div class="container">
 				<div class="row">
