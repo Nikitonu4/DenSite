@@ -104,15 +104,7 @@ button:focus {
 
 /*---------- Normal css end -------*/
 
-.main {
-	background-color: #f6fbf5;
-}
-
 /* header section start */
-.md_header_wrapper {
-	float: left;
-	width: 100%;
-}
 
 .md_top_header {
 	float: left;
@@ -123,9 +115,7 @@ button:focus {
 
 .md_top_haeder_logo {
 	float: left;
-
-	width: 150px;
-	/* height: 50%; */
+	width: 100%;
 }
 
 .md_top_header_contact {
@@ -142,7 +132,7 @@ button:focus {
 
 .md_top_header_contact ul li {
 	float: left;
-	color: white;
+	color: black;
 	margin-left: 40px;
 }
 
@@ -176,42 +166,6 @@ button:focus {
 .md_top_header_contact ul li span {
 	float: left;
 	padding: 4px 0px;
-}
-
-.md_contact_hour {
-	float: left;
-	width: 100%;
-	margin-bottom: 50px;
-}
-
-.md_contact_hour h5 {
-	margin-top: 0px;
-	color: white;
-	font-weight: bold;
-	border-bottom: 2px solid #063045;
-	padding-bottom: 15px;
-	margin-bottom: 10px;
-}
-
-.md_contact_hour ul {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-}
-
-.md_contact_hour ul li {
-	color: white;
-	font-style: italic;
-	font-size: 12px;
-	margin-bottom: 10px;
-}
-
-.md_contact_hour ul li:last-child {
-	margin-bottom: 0px;
-}
-
-.md_contact_hour ul li span {
-	float: right;
 }
 
 /* header section end */
@@ -517,8 +471,6 @@ button:focus {
 	padding: 100px 0px;
 }
 
-
-
 .md_slider_bg_content {
 	float: left;
 	width: 100%;
@@ -544,41 +496,6 @@ button:focus {
 	margin-bottom: 30px;
 }
 
-.md_slider_bg_content .md_button a {
-	color: white;
-	font-size: 18px;
-}
-
-.md_slider_bg_content .blue_button {
-	margin-right: 20px;
-	border: 2px solid transparent;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.md_slider_bg_content .blue_button:hover {
-	border: 2px solid #07bb83;
-	background: none;
-}
-
-.md_slider_bg_content .green_button {
-	border: 2px solid #07bb83;
-	background: none;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.md_slider_bg_content .green_button:hover {
-	background: #1990ce;
-	border: 2px solid transparent;
-}
-
 /* slider section end */
 
 /* about seciton start */
@@ -600,7 +517,7 @@ button:focus {
 .md_about_caption_box {
 	float: left;
 	width: 100%;
-	background-color: #f6fbf5;
+	background-color: #fff;
 
 	padding: 100px 50px 100px 0px;
 }
@@ -871,7 +788,7 @@ button:focus {
 .md_team_wrapper {
 	float: left;
 	width: 100%;
-	padding: 100px 0px 60px 0px;
+	padding: 100px 0px 15px 0px;
 }
 
 .md_team_heading {
@@ -955,185 +872,11 @@ button:focus {
 
 /* team section end */
 
-/* blog section start */
-.md_blog_wrapper {
-	float: left;
-	width: 100%;
-	padding: 100px 0px 60px 0px;
-}
-
-.md_blog_heading {
-	float: left;
-	width: 100%;
-	text-align: center;
-	margin-bottom: 50px;
-}
-
-.md_blog_heading h2 {
-	font-size: 34px;
-	font-weight: bold;
-}
-
-.md_blog_heading h2 span {
-	color: #1990ce;
-}
-
-.md_blog_heading p {
-	margin-bottom: 0px;
-	font-size: 20px;
-	color: #606060;
-}
-
-.md_blog_caption {
-	float: left;
-	width: 100%;
-	margin-bottom: 40px;
-	border: 1px solid #e1e1e1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.md_blog_caption:hover {
-	box-shadow: 0px 10px 24px -8px rgba(0, 0, 0, 0.5);
-}
-
-.md_blog_caption_heading {
-	float: left;
-	width: 100%;
-	padding: 18px 24px;
-}
-
-.md_blog_caption_heading h4 {
-	font-size: 22px;
-	margin-top: 0px;
-}
-
-.md_blog_caption_heading ul {
-	list-style: none;
-	padding: 0px;
-}
-
-.md_blog_caption_heading ul li {
-	margin-right: 30px;
-	float: left;
-}
-
-.md_blog_caption_heading ul li:last-child {
-	margin-right: 0px;
-}
-
-.md_blog_caption_heading ul li a {
-	font-size: 15px;
-	color: #555;
-	font-style: italic;
-}
-
-.md_blog_caption_heading ul li a i {
-	margin-right: 10px;
-	color: #1990ce;
-}
-
-.md_blog_caption_img {
-	float: left;
-	width: 100%;
-}
-
-.md_blog_caption_body {
-	float: left;
-	width: 100%;
-	padding: 18px 24px;
-}
-
-.md_blog_caption_body p {
-	font-size: 18px;
-	color: #555;
-	margin-bottom: 20px;
-}
-
-.md_blog_caption_body .md_button {
-	background: none;
-	position: relative;
-	border: 2px solid #1990ce;
-	color: #1990ce;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.md_blog_caption_body .md_button:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 0px;
-	height: 0px;
-	border-top: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	-webkit-transition-delay: 0.3s;
-	-moz-transition-delay: 0.3s;
-	-ms-transition-delay: 0.3s;
-	-o-transition-delay: 0.3s;
-	transition-delay: 0.3s;
-}
-
-.md_blog_caption_body .md_button:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0px;
-	height: 0px;
-	border-bottom: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	-webkit-transition-delay: 0.3s;
-	-moz-transition-delay: 0.3s;
-	-ms-transition-delay: 0.3s;
-	-o-transition-delay: 0.3s;
-	transition-delay: 0.3s;
-}
-
-.md_blog_caption_body .md_button:hover {
-	background: #1990ce;
-	color: #fff;
-}
-
-.md_blog_caption_body .md_button:hover:before,
-.md_blog_caption_body .md_button:hover:after {
-	width: 100%;
-	height: 100%;
-}
-
-.md_blog_caption_body button a {
-	color: #1990ce;
-	font-size: 18px;
-	font-weight: bold;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-/* blog section end */
-
 /* testimonial section start */
 .md_testimonial_wrapper {
 	float: left;
 	width: 100%;
-	padding: 100px 0px 200px 0px;
+	padding: 50px 0px 200px 0px;
 }
 
 .md_testimonial_heading {
@@ -1352,6 +1095,7 @@ button:focus {
 	width: 100%;
 	padding-top: 100px;
 	background: #011823;
+
 }
 
 .md_contact {
@@ -1363,6 +1107,7 @@ button:focus {
 	float: left;
 	width: 100%;
 	margin-bottom: 50px;
+	padding-left: 80px;
 }
 
 .md_contact_form h4 {
@@ -1439,13 +1184,13 @@ button:focus {
 	font-size: 18px;
 }
 
-.md_contact_service {
+.md_contact_hour {
 	float: left;
 	width: 100%;
 	margin-bottom: 50px;
 }
 
-.md_contact_service h4 {
+.md_contact_hour h4 {
 	margin-top: 0px;
 	color: white;
 	font-weight: bold;
@@ -1454,32 +1199,32 @@ button:focus {
 	margin-bottom: 20px;
 }
 
-.md_contact_service ul {
+.md_contact_hour ul {
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
 }
 
-.md_contact_service ul li {
+.md_contact_hour ul li {
 	color: white;
 	font-style: italic;
 	font-size: 16px;
 	margin-bottom: 10px;
 }
 
-.md_contact_service ul li:last-child {
+.md_contact_hour ul li:last-child {
 	margin-bottom: 0px;
 }
 
-.md_contact_service ul li i {
-	color: #1990ce;
-	margin-right: 10px;
+.md_contact_hour ul li span {
+	float: right;
 }
 
 .md_contact_address {
 	float: left;
 	width: 100%;
 	margin-bottom: 50px;
+	padding-right: 80px;
 }
 
 .md_contact_address h4 {
