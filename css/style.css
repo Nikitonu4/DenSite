@@ -57,6 +57,12 @@ h6 {
 	color: #202020;
 }
 
+.container {
+	width: 1170px;
+	margin: 0 auto;
+
+}
+
 input {
 	outline: none;
 }
@@ -268,11 +274,11 @@ button:focus {
 
 .md_navigation_app_button .md_app_button {
 
-	background: #006A91;
+	background: #F8A335;
 	border: none;
 	font-size: 14px;
-	padding: 5px 20px 5px;
-	color: #fff;
+	padding: 10px 15px;
+	color: #000;
 	float: right;
 	border: 3px solid transparent;
 	-webkit-transition: all 0.3s;
@@ -283,6 +289,7 @@ button:focus {
 	position: relative;
 	font-family: "Montserrat";
 	font-style: normal;
+	font-weight: 700;
 }
 
 .md_navigation_app_button .md_app_button:before {
@@ -452,16 +459,21 @@ button:focus {
 .md_slider_bg {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/first_img.jpg);
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/first_img.jpg);
-	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/first_img.jpg);
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/first_img.jpg);
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/first_img.jpg);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/third.jpg);
+	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../images/third.jpg);
+	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../images/third.img.jpg);
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../images/third.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url(../images/third.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
 	position: relative;
 	padding: 100px 0px;
+	height: 500px;
 }
 
 .md_slider_bg_content {
@@ -614,6 +626,68 @@ button:focus {
 }
 
 /* about seciton end */
+
+/* progress section start */
+.md_progress_wrapper {
+	float: left;
+	width: 100%;
+	padding: 100px 0px 60px 0px;
+	background-color: rgb(188, 232, 233, 0.54);
+}
+
+.md_progress_heading img {
+	margin-bottom: 0px;
+	width: 50px;
+	height: 50px;
+}
+
+.md_progress_heading {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.md_progress_heading h2 {
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.md_progress_heading p {
+	margin-bottom: 0px;
+	font-size: 20px;
+}
+
+.md_progress_caption {
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.md_progress_caption i:before {
+	margin: 0;
+	background: #07bb83;
+	padding: 24px;
+	font-size: 40px;
+	color: #fff;
+	border-radius: 100%;
+}
+
+.md_progress_caption h4 {
+	font-weight: bold;
+	font-size: 22px;
+	margin: 10px 0px;
+	margin-top: 20px;
+}
+
+.md_progress_caption p {
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 0px;
+}
+
+/* progress section end */
 
 /* service section start */
 .md_service_wrapper {
