@@ -20,23 +20,27 @@ body {
 	font-family: 'Montserrat',
 		sans-serif;
 	font-size: 14px;
-	color: #333;
+	color: #010562;
 	margin: 0;
 	padding: 0;
+}
+
+p {
+	color: #010562;
 }
 
 /*--------- Body End -------*/
 
 /*---------- Normal css start -------*/
 a {
-	color: #333;
+	color: #010562;
 	text-decoration: none;
 	cursor: pointer;
 }
 
 a:hover,
 a:focus {
-	color: #333;
+	color: #010562;
 	text-decoration: none;
 }
 
@@ -54,13 +58,12 @@ h6 {
 		sans-serif;
 	font-weight: 400;
 	line-height: 1.1;
-	color: #202020;
+	color: #010562;
 }
 
 .container {
 	width: 1170px;
 	margin: 0 auto;
-
 }
 
 input {
@@ -118,8 +121,9 @@ button:focus {
 .md_top_header {
 	float: left;
 	width: 100%;
-	background: #222;
+	background: #010562;
 	padding: 30px 0px;
+
 }
 
 .md_top_haeder_logo {
@@ -131,6 +135,7 @@ button:focus {
 	float: left;
 	width: 100%;
 	margin-top: 22px;
+
 }
 
 .md_top_header_contact ul {
@@ -138,13 +143,11 @@ button:focus {
 	padding: 0;
 	margin: 0;
 	float: right;
-
 }
 
 .md_top_header_contact ul li {
 	float: left;
-	color: black;
-	margin-left: 40px;
+	margin-left: 10px;
 }
 
 .md_top_header_contact ul li:first-child {
@@ -153,11 +156,11 @@ button:focus {
 
 .md_top_header_contact ul li img {
 	color: white;
+	width: 30%;
 	height: 20%;
-	width: 20%;
 	float: left;
 	text-align: center;
-	margin-right: 10px;
+	padding-left: 5px;
 }
 
 /* header section end */
@@ -170,7 +173,7 @@ button:focus {
 }
 
 .menu_fixed {
-	position: fixed;
+	/* position: fixed; */
 	z-index: 1000;
 	padding: 10px 0px;
 	background: white;
@@ -193,7 +196,7 @@ button:focus {
 }
 
 .md_navigation_menu ul li {
-	float: left;
+	float: right;
 }
 
 .md_navigation_menu ul li a {
@@ -555,6 +558,7 @@ button:focus {
 .md_about_caption_content p {
 	font-size: 20px;
 	margin-bottom: 0px;
+	color: #010562;
 }
 
 .md_about_caption_icon_box {
@@ -615,7 +619,6 @@ button:focus {
 
 .md_about_caption_icons .md_about_icon_content p {
 	font-size: 18px;
-	color: #555;
 	margin-bottom: 0px;
 }
 
@@ -683,8 +686,8 @@ button:focus {
 
 .md_progress_caption p {
 	font-size: 18px;
-	color: #555;
 	margin-bottom: 0px;
+	color: #010562;
 }
 
 /* progress section end */
@@ -748,7 +751,7 @@ button:focus {
 
 .md_service_caption p {
 	font-size: 18px;
-	color: #555;
+	color: #010562;
 	margin-bottom: 0px;
 }
 
@@ -758,15 +761,16 @@ button:focus {
 .md_insurance_wrapper {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(7, 188, 131, 0.5), rgba(7, 188, 131, 0.5)), url(../images/third.img.jpg);
-	background: -moz-linear-gradient(rgba(7, 188, 131, 0.5), rgba(7, 188, 131, 0.5)), url(h../images/third.img.jpg);
-	background: -ms-linear-gradient(rgba(7, 188, 131, 0.5), rgba(7, 188, 131, 0.5)), url(../images/third.img.jpg);
-	background: -o-linear-gradient(rgba(7, 188, 131, 0.5), rgba(7, 188, 131, 0.5)), url(../images/third.img.jpg);
-	background: linear-gradient(rgba(7, 188, 131, 0.5), rgba(7, 188, 131, 0.5)), url(../images/third.img.jpg);
+	background: -webkit-linear-gradient url(../images/gift_bg.jpg);
+	background: -moz-linear-gradient url(../images/gift_bg.jpg);
+	background: -ms-linear-gradient url(../images/gift_bg.jpg);
+	background: -o-linear-gradient url(../images/gift_bg.jpg);
+	background: linear-gradient(rgba(7, 188, 131, 0), rgba(7, 188, 131, 0)),
+		url(../images/gift_bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
-	padding: 100px 0px;
+	padding: 120px 0px;
 }
 
 .md_insurance_caption {
@@ -782,14 +786,14 @@ button:focus {
 
 .md_insurance_content h2 {
 	font-size: 34px;
-	color: white;
 	font-weight: bold;
+	margin-bottom: 50px;
 }
 
 .md_insurance_content p {
 	margin-bottom: 0px;
 	font-size: 20px;
-	color: white;
+	/* margin-top: 100px */
 }
 
 .md_insurance_button {
@@ -882,7 +886,7 @@ button:focus {
 .md_team_heading p {
 	margin-bottom: 0px;
 	font-size: 20px;
-	color: #606060;
+	color: #010562;
 }
 
 .md_team_heading img {
@@ -922,7 +926,7 @@ button:focus {
 
 .md_team_caption p {
 	font-size: 15px;
-	color: #555;
+	color: #010562;
 	margin-bottom: 10px;
 }
 
@@ -986,7 +990,7 @@ button:focus {
 .md_testimonial_caption p {
 	font-size: 20px;
 	font-style: italic;
-	color: #555;
+	color: #010562;
 }
 
 .md_testimonial_caption p a {
