@@ -494,6 +494,7 @@ button:focus {
 	font-weight: bold;
 	margin-top: 0px;
 	line-height: 1.3;
+	font-size: 50px;
 }
 
 .md_slider_bg_content p {
