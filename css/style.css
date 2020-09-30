@@ -877,6 +877,7 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	padding: 100px 0px 60px 0px;
+	/* background-color: #DCF3F3; */
 }
 
 .md_service_heading img {
@@ -936,6 +937,49 @@ input:focus:-ms-input-placeholder {
 }
 
 /* service section end */
+
+/* price start */
+
+.md_price_wrapper {
+	float: center;
+	width: 100%;
+	padding: 120px 0px;
+}
+
+.md_price_caption {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.md_price_content {
+	float: left;
+	width: 100%;
+}
+
+.md_price_content h1 {
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.md_price_content p {
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+.md_price_links {
+	justify-content: space-between;
+	display: inline-flex;
+}
+
+.price1,
+.price2,
+.price3,
+.price4 {
+	margin: 0px 50px;
+}
+
+/* price end */
 
 /* insurance section start */
 .md_insurance_wrapper {
