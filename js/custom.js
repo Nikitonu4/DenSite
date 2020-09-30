@@ -35,13 +35,13 @@
 	$('.slider1').owlCarousel({
 		loop: true,
 		autoplay: true,
-		margin: 0,
+		margin: 10,
 		nav: true,
 		dots: false,
 		items: 1,
 		navText: [
-			'<svg width="35" height="35" viewBox="0 0 24 24"><path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z"/></svg>',
-			'<svg width="35" height="35" viewBox="0 0 24 24"><path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z"/></svg>'
+			'<img src="../images/Left Arrow.svg">',
+			'<img src="../images/Right Arrow.svg">'
 		],
 		responsive: {
 			0: {
@@ -57,20 +57,17 @@
 	});
 
 	$('.slider2').owlCarousel({
+		items: 5,
 		loop: true,
-		autoplay: true,
-		margin: 0,
+		margin: 10,
+		merge: true,
 		dots: true,
-		items: 1,
 		responsive: {
-			0: {
-				items: 1
-			},
-			600: {
-				items: 1
+			678: {
+				mergeFit: true
 			},
 			1000: {
-				items: 1
+				mergeFit: false
 			}
 		}
 	});

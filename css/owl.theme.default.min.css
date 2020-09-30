@@ -66,11 +66,11 @@
 
 .owl-next,
 .owl-prev {
-  width: 22px;
-  height: 40px;
+  width: 30px;
+  height: 55px;
   margin-top: -20px;
   position: absolute;
-  top: 50%;
+  top: 40%;
 }
 
 .owl-prev {
