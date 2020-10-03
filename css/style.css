@@ -1,20 +1,3 @@
-/*
-[Table of contents]
-
-1. Body
-2. Normal Css
-3. header section / .md_header_wrapper
-4. menu section / .md_navigation
-5. slider section / .md_slider_wrapper
-6. about section / .md_about_wrapper
-7. service section / .md_service_wrapper
-8. team section  / .md_team_wrapper
-9. blog section / .md_blog_wrapper
-10. testimonial section / .md_testimonial_wrapper
-11. cta section / .md_cta_wrapper
-12. footer section / .md_footer_wrapper
-
-*/
 /*--------- Body Start -------*/
 body {
 	font-family: 'Montserrat',
@@ -819,7 +802,6 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	background-color: #fff;
-
 	padding: 100px 50px 100px 0px;
 }
 
@@ -866,7 +848,6 @@ input:focus:-ms-input-placeholder {
 
 .md_about_caption_icons .md_about_icon {
 	float: left;
-	/* background: #1990ce; */
 	padding: 10px 10px;
 	border-radius: 100px;
 	margin-top: 20px;
@@ -924,7 +905,7 @@ input:focus:-ms-input-placeholder {
 .md_progress_wrapper {
 	float: left;
 	width: 100%;
-	padding: 100px 0px 60px 0px;
+	padding: 50px 0px 50px 0px;
 	background-color: rgb(188, 232, 233, 0.54);
 }
 
@@ -954,7 +935,6 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	text-align: center;
-	margin-bottom: 50px;
 }
 
 .md_progress_caption i:before {
@@ -968,7 +948,6 @@ input:focus:-ms-input-placeholder {
 
 .md_progress_caption h2 {
 	font-weight: bold;
-	margin: 10px 0px;
 	margin-top: 20px;
 }
 
@@ -984,6 +963,7 @@ input:focus:-ms-input-placeholder {
 .md_team_wrapper {
 	display: flex;
 	width: 100%;
+	margin-bottom: 40px;
 }
 
 .md_team_heading h1 {
@@ -991,6 +971,7 @@ input:focus:-ms-input-placeholder {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 .photo_EA {
@@ -1030,8 +1011,6 @@ input:focus:-ms-input-placeholder {
 	margin-top: 60px;
 }
 
-
-
 /* team end */
 
 
@@ -1039,7 +1018,7 @@ input:focus:-ms-input-placeholder {
 .md_service_wrapper {
 	float: left;
 	width: 100%;
-	padding: 100px 0px 60px 0px;
+	padding: 30px 0px 60px 0px;
 	background-color: #DCF3F3;
 }
 
@@ -1107,6 +1086,7 @@ input:focus:-ms-input-placeholder {
 	float: center;
 	width: 100%;
 	padding: 120px 0px;
+	padding-bottom: 50px;
 }
 
 .md_price_caption {
@@ -1123,6 +1103,7 @@ input:focus:-ms-input-placeholder {
 .md_price_content h1 {
 	font-weight: bold;
 	margin-bottom: 50px;
+	margin-top: 50px
 }
 
 .md_price_content p {
@@ -1161,7 +1142,7 @@ input:focus:-ms-input-placeholder {
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
-	padding: 120px 0px;
+	padding: 30px 0px;
 }
 
 .md_insurance_caption {
@@ -1175,7 +1156,7 @@ input:focus:-ms-input-placeholder {
 	width: 100%;
 }
 
-.md_insurance_content h2 {
+.md_insurance_content h1 {
 	font-size: 34px;
 	font-weight: bold;
 	margin-bottom: 50px;
@@ -1256,15 +1237,13 @@ input:focus:-ms-input-placeholder {
 .md_gallery_wrapper {
 	float: left;
 	width: 100%;
-	padding: 50px 0px;
-	padding-bottom: 0px;
+	padding: 30px 0px;
 }
 
-.md_gallery_heading h2 {
+.md_gallery_heading h1 {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 50px;
-	font-size: 34px;
 	font-weight: bold;
 }
 
@@ -1276,7 +1255,7 @@ input:focus:-ms-input-placeholder {
 .md_review_wrapper {
 	float: left;
 	width: 100%;
-	padding: 120px 0px;
+	padding: 30px 0px;
 	height: 700px;
 }
 
@@ -1286,7 +1265,6 @@ input:focus:-ms-input-placeholder {
 	text-align: center;
 	position: relative;
 	z-index: 3;
-
 }
 
 .md_review_content {
@@ -1302,6 +1280,7 @@ input:focus:-ms-input-placeholder {
 .other_reviews {
 	margin-top: 70px;
 	align-items: center;
+
 }
 
 .buttons_review {
@@ -1309,7 +1288,7 @@ input:focus:-ms-input-placeholder {
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	margin-top: 450px;
+	margin-top: 490px;
 }
 
 .button_rev1 {
@@ -1358,7 +1337,6 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_review_content p {
-
 	font-style: 15px;
 }
 
@@ -1391,9 +1369,8 @@ input:focus:-ms-input-placeholder {
 .md_footer_wrapper {
 	float: left;
 	width: 100%;
-	padding-top: 100px;
+	padding-top: 50px;
 	background: #0F4C4F;
-
 }
 
 .md_contact {
@@ -1404,7 +1381,7 @@ input:focus:-ms-input-placeholder {
 .md_contact_form {
 	float: left;
 	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	padding-left: 80px;
 }
 
