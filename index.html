@@ -615,10 +615,12 @@
 						<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 							<div class="md_contact_form">
 								<h4>Заказать звонок</h4>
-								<input id="name" type="text" placeholder="Имя" class="form-control form-footer">
-								<input id="phone" type="text" placeholder="Телефон" class="form-control form-footer">
-								<button id="submit" class="md_button">Заказать</button>
-								<p id="error"></p>
+								<form id="form" method="POST">
+									<input name="name" type="text" placeholder="Имя" class="form-control form-footer">
+									<input name="phone" type="text" placeholder="Телефон" class="form-control form-footer">
+									<button type="submit" class="md_button">Заказать</button>
+									<p id="error"></p>
+								</form>
 							</div>
 						</div>
 					</div>

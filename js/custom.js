@@ -197,44 +197,14 @@
 
 
 
-	$("#submit").click(function () {
-		var name = $('#name').val();
-		var phone = $('#phone').val();
-		var letters = /^[A-Za-z]+$/;
-		var number = /^[0-9]+$/;
-
-		if (name != "" && phone != "") {
-			if (name.match(letters)) {
-				if (phone.match(number) && phone.length == 10) {
-					$.ajax({
-						method: 'post',
-						url: 'ajax.php',
-						data: {
-							'first_name': name,
-							'phone_number': phone,
-						},
-					}).done(function (resp) {
-						if (resp == 1) {
-							document.getElementById("error").style.color = "green";
-							document.getElementById("error").innerHTML = "Mail Send Successfully";
-							$('#name').val('');
-							$('#phone').val('');
-						} else {
-							document.getElementById("error").style.color = "red";
-							document.getElementById("error").innerHTML = "Mail not Send";
-						}
-						console.log(resp);
-					});
-				} else {
-					document.getElementById("error").style.color = "red";
-					document.getElementById("error").innerHTML = "Please Fill The  Correct Number";
-				}
-			} else {
-				document.getElementById("error").style.color = "red";
-				document.getElementById("error").innerHTML = "Please Fill The Correct Name";
+	$("#form").submit(function (e) {
+		e.preventDefault();
+		$.ajax({
+			type: "POST",
+			url: "../ajax.php",
+			data: $("#form").serialize(),
+			success: function (data) {
+				alert('okey');
 			}
-		} else {
-			document.getElementById("error").style.color = "red";
-			document.getElementById("error").innerHTML = "Please Fill All Detail";
-		}
+		});
 	});
