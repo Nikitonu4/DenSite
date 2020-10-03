@@ -56,12 +56,20 @@
 		}
 	});
 
-	$('.owl-carousel').owlCarousel({
-		margin: 10,
+	$('.slider2').owlCarousel({
+		items: 6,
 		loop: true,
-		autoWidth: true,
-		items: 4
-	})
+		margin: 10,
+		merge: true,
+		responsive: {
+			678: {
+				mergeFit: true
+			},
+			1000: {
+				mergeFit: false
+			}
+		}
+	});
 
 
 	// Single page scroll menu

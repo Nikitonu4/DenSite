@@ -402,7 +402,7 @@ button:focus {
 	width: 0%;
 	height: 100%;
 	z-index: -1;
-	background: #b3aaa2;
+	background: #F8A335;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -1256,12 +1256,8 @@ input:focus:-ms-input-placeholder {
 .md_gallery_wrapper {
 	float: left;
 	width: 100%;
-	padding: 50px 0px 200px 0px;
-}
-
-.slider2 .item img {
-	/* width: auto; */
-	margin-bottom: 30px;
+	padding: 50px 0px;
+	padding-bottom: 0px;
 }
 
 .md_gallery_heading h2 {
