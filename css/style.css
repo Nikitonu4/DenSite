@@ -130,6 +130,171 @@ button:focus {
 
 /*---------- Normal css end -------*/
 
+
+/* preloader section start */
+#preloader {
+	background-color: #42a1c6;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2147483647;
+	width: 100%;
+	height: 100%;
+}
+
+.fish {
+	width: 150px;
+	height: 100px;
+	animation: swim 3s infinite;
+}
+
+/* Franklin */
+.fish-body {
+	position: relative;
+	margin-top: 30px;
+	margin-left: 40px;
+	background-color: orange;
+	border-radius: 50%;
+	width: 150px;
+	height: 100px;
+}
+
+.eye {
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 20px;
+	z-index: 1;
+	background-color: white;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+}
+
+.pupil {
+	position: absolute;
+	z-index: 2;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: black;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+}
+
+.fin {
+	margin-top: -100px;
+	background-color: orange;
+	border-radius: 50%;
+	transform: rotate(40deg);
+	width: 80px;
+	height: 50px;
+}
+
+.fin-bottom {
+	margin-top: -10px;
+	transform: rotate(-40deg);
+}
+
+/* Bubbles */
+.bubbles {
+	position: absolute;
+	bottom: 0;
+	z-index: 5;
+	margin-right: 50px;
+	background-color: white;
+	border-radius: 50%;
+	opacity: .50;
+	width: 40px;
+	height: 40px;
+	animation: up 4s infinite;
+}
+
+.bubble-2 {
+	left: 350px;
+	animation: up 2s infinite;
+}
+
+.bubble-3 {
+	left: 750px;
+	opacity: .30;
+	animation: up 5s infinite;
+}
+
+.bubble-4 {
+	left: 1150px;
+	animation: up 6s infinite;
+}
+
+.bubble-5 {
+	left: 50px;
+	animation: up 5s infinite;
+}
+
+.bubble-6 {
+	left: 300px;
+	opacity: .30;
+	animation: up 3s infinite;
+}
+
+.bubble-7 {
+	left: 670px;
+	animation: up 4s infinite;
+}
+
+.bubble-8 {
+	left: 1050px;
+	opacity: .30;
+	animation: up 3s infinite;
+}
+
+/* Swim Animation */
+@keyframes swim {
+	0% {
+		transform: translateY(-50px) translateX(0) rotate(30deg);
+	}
+
+	25% {
+		transform: translateY(50px) translateX(250px) rotate(20deg);
+	}
+
+	50% {
+		transform: translateY(100px) translateX(500px);
+	}
+
+	75% {
+		transform: translateY(50px) translateX(850px) rotate(-20deg);
+	}
+
+	100% {
+		transform: translateY(-170px) translateX(1200px) rotate(-40deg);
+	}
+}
+
+/* Bubbles Animation */
+@keyframes up {
+	100% {
+		transform: translateY(-800px);
+	}
+}
+
+
+#status {
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+}
+
+/* preloader section end */
 /* header section start */
 
 .md_top_header {
@@ -148,7 +313,7 @@ button:focus {
 .md_top_header_contact {
 	float: left;
 	width: 100%;
-	margin-top: 22px;
+	margin-top: 12px;
 
 }
 
@@ -187,7 +352,7 @@ button:focus {
 }
 
 .menu_fixed {
-	/* position: fixed; */
+	position: fixed;
 	z-index: 1000;
 	padding: 10px 0px;
 	background: white;
@@ -197,7 +362,7 @@ button:focus {
 .md_navigation_menu {
 	float: left;
 	width: 100%;
-	margin-top: 22px;
+	margin-top: 14px;
 }
 
 .md_navigation_menu ul {
@@ -237,7 +402,7 @@ button:focus {
 	width: 0%;
 	height: 100%;
 	z-index: -1;
-	background: #FFA552;
+	background: #b3aaa2;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -286,7 +451,7 @@ button:focus {
 .md_navigation_app_button {
 	float: left;
 	width: 100%;
-	margin-top: 22px;
+	margin-top: 9px;
 }
 
 .md_navigation_app_button .md_app_button {
@@ -303,7 +468,7 @@ button:focus {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	position: relative;
-	font-family: "Montserrat";
+
 	font-style: normal;
 	font-weight: 700;
 }
@@ -390,7 +555,6 @@ button:focus {
 .modal-content {
 	border-radius: 0px;
 	background: #AEDADD;
-	/* background: #fff; */
 }
 
 .modal-header h4 {
@@ -490,7 +654,6 @@ input:focus:-ms-input-placeholder {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	position: relative;
-	font-family: "Montserrat";
 	font-style: normal;
 	font-weight: 700;
 
@@ -1112,12 +1275,128 @@ input:focus:-ms-input-placeholder {
 /* gallery section end  */
 
 
+/* recoll start here */
+
+.md_review_wrapper {
+	float: left;
+	width: 100%;
+	padding: 120px 0px;
+	height: 700px;
+}
+
+.md_review_caption {
+	float: left;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+
+}
+
+.md_review_content {
+	float: center;
+	width: 100%;
+}
+
+.md_review_content h1 {
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.other_reviews {
+	margin-top: 70px;
+	align-items: center;
+}
+
+.buttons_review {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+	margin-top: 450px;
+}
+
+.button_rev1 {
+	background: #F8A335;
+	box-shadow: 0px 4px 20px #F8A335;
+	padding: 18.05px 34.32px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button_rev2 {
+	background: #348F92;
+	box-shadow: 0px 4px 20px #348F92;
+	padding: 18.05px 23.32px;
+	text-align: center;
+	color: white;
+	margin-right: 50px;
+	text-decoration: none;
+}
+
+.button_rev1:hover {
+	color: white;
+	box-shadow: 0px 4px 50px #F8A335;
+	transition: all 0.3s;
+
+}
+
+.button_rev2:hover {
+	color: white;
+	box-shadow: 0px 4px 50px #348F92;
+	transition: all 0.3s;
+}
+
+.button_rev1:visited,
+.button_rev2:visited {
+	color:
+		white;
+}
+
+.rev1,
+.rev2,
+.rev3 {
+	margin-bottom: 43px;
+	z-index: 999;
+}
+
+.md_review_content p {
+
+	font-style: 15px;
+}
+
+.images {
+	display: block;
+	z-index: -1;
+	position: relative;
+	top: -460px;
+}
+
+.left-pic {
+	width: 637.77px;
+	height: 443.23px;
+	float: left;
+	display: block;
+
+}
+
+.right-pic {
+	width: 345.81px;
+	height: 321.7px;
+	float: right;
+	display: block;
+	margin-top: 100px;
+}
+
+/* recoll end */
+
 /* footer section start */
 .md_footer_wrapper {
 	float: left;
 	width: 100%;
 	padding-top: 100px;
-	background: #011823;
+	background: #0F4C4F;
 
 }
 
@@ -1137,7 +1416,7 @@ input:focus:-ms-input-placeholder {
 	margin-top: 0px;
 	color: white;
 	font-weight: bold;
-	border-bottom: 2px solid #063045;
+	border-bottom: 1px solid #BBE3DC;
 	padding-bottom: 15px;
 	margin-bottom: 20px;
 }
@@ -1146,11 +1425,15 @@ input:focus:-ms-input-placeholder {
 	background: none;
 	border-radius: 0px;
 	height: 40px;
-	border: 2px solid #006A91;
+	border: 1px solid #BBE3DC;
 	margin-bottom: 20px;
-	color: #006A91;
+	color: #BBE3DC;
 	font-weight: bold;
 	font-style: italic;
+}
+
+.md_contact_form input:focus {
+	border-color: #BBE3DC;
 }
 
 .md_contact_form button {
@@ -1158,12 +1441,17 @@ input:focus:-ms-input-placeholder {
 	height: 45px;
 	position: relative;
 	width: 170px;
-	border: 3px solid #006A91;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+	background-color: #FFA552;
+	border: 3px solid transparent;
+	font-weight: 700;
+	font-size: 15px;
+	padding: 10px 15px;
+
 }
 
 .md_contact_form button:before {
@@ -1217,7 +1505,7 @@ input:focus:-ms-input-placeholder {
 	margin-top: 0px;
 	color: white;
 	font-weight: bold;
-	border-bottom: 2px solid #063045;
+	border-bottom: 2px solid #BBE3DC;
 	padding-bottom: 15px;
 	margin-bottom: 20px;
 }
@@ -1254,7 +1542,7 @@ input:focus:-ms-input-placeholder {
 	margin-top: 0px;
 	color: white;
 	font-weight: bold;
-	border-bottom: 2px solid #063045;
+	border-bottom: 2px solid #BBE3DC;
 	padding-bottom: 15px;
 	margin-bottom: 20px;
 }
@@ -1268,20 +1556,6 @@ input:focus:-ms-input-placeholder {
 .md_contact_address_icon {
 	float: left;
 	text-align: center;
-}
-
-.md_contact_address_icon i {
-	font-size: 25px;
-	height: 50px;
-	width: 50px;
-	border: 1px solid #1990ce;
-	color: #1990ce;
-	padding: 12px 0px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
 }
 
 .md_contact_address_content {
@@ -1300,15 +1574,10 @@ input:focus:-ms-input-placeholder {
 	color: white;
 }
 
-.md_contact_address_caption:hover .md_contact_address_icon i {
-	background: #1990ce;
-	color: white;
-}
-
 .md_footer {
 	float: left;
 	width: 100%;
-	border-top: 1px solid #1990ce;
+	border-top: 1px solid #BBE3DC;
 	padding: 30px 0px;
 }
 
@@ -1323,34 +1592,5 @@ input:focus:-ms-input-placeholder {
 	margin-bottom: 0px;
 }
 
-.md_footer_content p a {
-	color: #1990ce;
-}
-
-.md_footer_icons {
-	float: right;
-}
-
-.md_footer_icons a {
-	color: white;
-	font-size: 16px;
-	margin-right: 20px;
-}
-
-.md_footer_icons a span {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.md_footer_icons a:last-child {
-	margin-right: 0px;
-}
-
-.md_footer_icons a:hover span {
-	color: #1990ce;
-}
 
 /* footer section end */
