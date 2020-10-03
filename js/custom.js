@@ -56,21 +56,12 @@
 		}
 	});
 
-	$('.slider2').owlCarousel({
-		items: 5,
-		loop: true,
+	$('.owl-carousel').owlCarousel({
 		margin: 10,
-		merge: true,
-		dots: true,
-		responsive: {
-			678: {
-				mergeFit: true
-			},
-			1000: {
-				mergeFit: false
-			}
-		}
-	});
+		loop: true,
+		autoWidth: true,
+		items: 4
+	})
 
 
 	// Single page scroll menu

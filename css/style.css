@@ -710,15 +710,15 @@ input:focus:-ms-input-placeholder {
 .md_slider_bg1 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/IMG_4084.jpg);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/IMG_4084.JPG);
 	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(.../photos/IMG_4084.jpg);
+		url(.../photos/IMG_4084.JPG);
 	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4084.jpg);
+		url(../photos/IMG_4084.JPG);
 	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4084.jpg);
+		url(../photos/IMG_4084.);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4084.jpg);
+		url(../photos/IMG_4084.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -731,15 +731,15 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.jpg);
+		url(../photos/IMG_3995.JPG);
 	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.jpg);
+		url(../photos/IMG_3995.JPG);
 	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.jpg);
+		url(../photos/IMG_3995.JPG);
 	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.jpg);
+		url(../photos/IMG_3995.JPG);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.jpg);
+		url(../photos/IMG_3995.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -752,15 +752,15 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.jpg);
+		url(../photos/IMG_4003.JPG);
 	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.jpg);
+		url(../photos/IMG_4003.JPG);
 	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.jpg);
+		url(../photos/IMG_4003.JPG);
 	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.jpg);
+		url(../photos/IMG_4003.JPG);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.jpg);
+		url(../photos/IMG_4003.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1152,12 +1152,12 @@ input:focus:-ms-input-placeholder {
 .md_insurance_wrapper {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient url(../images/gift_bg.jpg);
-	background: -moz-linear-gradient url(../images/gift_bg.jpg);
-	background: -ms-linear-gradient url(../images/gift_bg.jpg);
-	background: -o-linear-gradient url(../images/gift_bg.jpg);
+	background: -webkit-linear-gradient url(../images/gift_bg.JPG);
+	background: -moz-linear-gradient url(../images/gift_bg.JPG);
+	background: -ms-linear-gradient url(../images/gift_bg.JPG);
+	background: -o-linear-gradient url(../images/gift_bg.JPG);
 	background: linear-gradient(rgba(7, 188, 131, 0), rgba(7, 188, 131, 0)),
-		url(../images/gift_bg.jpg);
+		url(../images/gift_bg.JPG);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
