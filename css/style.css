@@ -1152,12 +1152,12 @@ input:focus:-ms-input-placeholder {
 .md_insurance_wrapper {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient url(../images/gift_bg.JPG);
-	background: -moz-linear-gradient url(../images/gift_bg.JPG);
-	background: -ms-linear-gradient url(../images/gift_bg.JPG);
-	background: -o-linear-gradient url(../images/gift_bg.JPG);
+	background: -webkit-linear-gradient url(../images/gift_bg.jpg);
+	background: -moz-linear-gradient url(../images/gift_bg.jpg);
+	background: -ms-linear-gradient url(../images/gift_bg.jpg);
+	background: -o-linear-gradient url(../images/gift_bg.jpg);
 	background: linear-gradient(rgba(7, 188, 131, 0), rgba(7, 188, 131, 0)),
-		url(../images/gift_bg.JPG);
+		url(../images/gift_bg.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
