@@ -385,7 +385,7 @@ button:focus {
 	width: 0%;
 	height: 100%;
 	z-index: -1;
-	background: #F8A335;
+	background: #FFA552;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;

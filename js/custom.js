@@ -9,16 +9,16 @@
 	$('.md_menu_btn').click(function () {
 		if (counter == '0') {
 			$('.md_navigation_menu').addClass('md_main_menu_hide');
-			$(this).children().removeAttr('class');
-			$(this).children().attr('class', 'fa fa-close');
+			$('.button_burger').addClass('bb_off');
 			counter++;
 		} else {
 			$('.md_navigation_menu').removeClass('md_main_menu_hide');
-			$(this).children().removeAttr('class');
+			$('.button_burger').removeClass('bb_off');
 			$(this).children().attr('class', 'fa fa-bars');
+			$(this).children().removeAttr('class');
+
 			counter--;
 		}
-
 	});
 
 	// Menu js for Position fixed
