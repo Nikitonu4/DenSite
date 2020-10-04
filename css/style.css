@@ -10,7 +10,7 @@ body {
 
 p {
 	color: #010562;
-	font-size: 15px;
+	font-size: 14px;
 }
 
 /*--------- Body End -------*/
@@ -105,10 +105,10 @@ button:focus {
 
 .md_button {
 	padding: 5px 25px;
-	background: #006A91;
+	background: #FFA552;
 	border: none;
 	color: #fff;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 /*---------- Normal css end -------*/
@@ -278,14 +278,13 @@ button:focus {
 }
 
 /* preloader section end */
-/* header section start */
 
+/* header section start */
 .md_top_header {
 	float: left;
 	width: 100%;
 	background: #010562;
 	padding: 30px 0px;
-
 }
 
 .md_top_haeder_logo {
@@ -297,7 +296,6 @@ button:focus {
 	float: left;
 	width: 100%;
 	margin-top: 12px;
-
 }
 
 .md_top_header_contact ul {
@@ -317,7 +315,6 @@ button:focus {
 }
 
 .md_top_header_contact ul li img {
-	color: white;
 	width: 30%;
 	height: 20%;
 	float: left;
@@ -328,6 +325,8 @@ button:focus {
 /* header section end */
 
 /* menu section start */
+
+
 .md_navigation {
 	float: left;
 	width: 100%;
@@ -451,7 +450,6 @@ button:focus {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	position: relative;
-
 	font-style: normal;
 	font-weight: 700;
 }
@@ -543,16 +541,12 @@ button:focus {
 .modal-header h4 {
 	font-weight: 600;
 	text-align: center;
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 18px;
 	margin-top: 5px;
 }
 
 .md_modal_form_group input {
 	height: 45px;
 	width: 440px;
-	line-height: 18px;
 	margin: 15px 0px;
 	border: none;
 	border-radius: 0;
@@ -622,60 +616,6 @@ input:focus:-moz-placeholder {
 input:focus:-ms-input-placeholder {
 	opacity: 0;
 	transition: opacity 0.1s ease;
-}
-
-.modal-footer .md_button {
-	background: #FFA552;
-	border: none;
-	font-size: 14px;
-	padding: 10px 15px;
-	color: #fff;
-	border: 3px solid transparent;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	position: relative;
-	font-style: normal;
-	font-weight: 700;
-
-}
-
-.modal-footer .md_button:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 0px;
-	height: 0px;
-	border-top: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.modal-footer .md_button:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	width: 0px;
-	height: 0px;
-	border-bottom: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.modal-footer .md_button:hover:before,
-.modal-footer .md_button:hover:after {
-	width: 100%;
-	height: 100%;
 }
 
 .md_menu_btn {
@@ -752,16 +692,6 @@ input:focus:-ms-input-placeholder {
 	height: 500px;
 }
 
-.md_slider_bg_content {
-	float: left;
-	width: 100%;
-}
-
-.slider1 .owl-item img {
-	width: auto;
-	margin-bottom: 30px;
-}
-
 .md_slider_bg_content h1 {
 	color: white;
 	font-weight: bold;
@@ -770,10 +700,9 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_slider_bg_content p {
-	font-size: 20px;
 	color: white;
+	font-size: 20px;
 	font-style: italic;
-	color: #f5f5f5;
 	margin-bottom: 30px;
 }
 
@@ -789,19 +718,19 @@ input:focus:-ms-input-placeholder {
 	background-size: contain;
 	position: relative;
 	margin-bottom: 40px;
+
 	/* background-position: center; */
 
 	/* background-position: 250px; */
 }
 
-.md_about_wrapper .col-lg-6 {
+/* .md_about_wrapper .col-lg-6 {
 	padding: 0px;
-}
+} */
 
 .md_about_caption_box {
 	float: left;
 	width: 100%;
-	background-color: #fff;
 	padding: 100px 50px 100px 0px;
 }
 
@@ -856,20 +785,6 @@ input:focus:-ms-input-placeholder {
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
-}
-
-.md_about_caption_icons .md_about_icon i {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.md_about_caption_icons .md_about_icon i:before {
-	margin: 0;
-	color: #fff;
-	font-size: 35px;
 }
 
 .md_about_caption_icons:hover .md_about_icon {
@@ -931,19 +846,24 @@ input:focus:-ms-input-placeholder {
 	font-size: 20px;
 }
 
+.md_progress_caption:hover img {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
 .md_progress_caption {
 	float: left;
 	width: 100%;
 	text-align: center;
-}
-
-.md_progress_caption i:before {
-	margin: 0;
-	background: #07bb83;
-	padding: 24px;
-	font-size: 40px;
-	color: #fff;
-	border-radius: 100%;
 }
 
 .md_progress_caption h2 {
@@ -953,11 +873,9 @@ input:focus:-ms-input-placeholder {
 
 .md_progress_caption p {
 	margin-bottom: 0px;
-	color: #010562;
 }
 
 /* progress section end */
-
 
 /* team start */
 .md_team_wrapper {
@@ -967,7 +885,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_team_heading h1 {
-	font-size: 34px;
+
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 50px;
@@ -1040,10 +958,6 @@ input:focus:-ms-input-placeholder {
 	font-weight: bold;
 }
 
-.md_service_heading h2 span {
-	color: #07bb83;
-}
-
 .md_service_heading p {
 	margin-bottom: 0px;
 	font-size: 20px;
@@ -1056,15 +970,6 @@ input:focus:-ms-input-placeholder {
 	margin-bottom: 50px;
 }
 
-.md_service_caption i:before {
-	margin: 0;
-	background: #07bb83;
-	padding: 24px;
-	font-size: 40px;
-	color: #fff;
-	border-radius: 100%;
-}
-
 .md_service_caption h4 {
 	font-weight: bold;
 	font-size: 22px;
@@ -1074,7 +979,6 @@ input:focus:-ms-input-placeholder {
 
 .md_service_caption p {
 	font-size: 18px;
-	color: #010562;
 	margin-bottom: 0px;
 }
 
@@ -1157,7 +1061,6 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_insurance_content h1 {
-	font-size: 34px;
 	font-weight: bold;
 	margin-bottom: 50px;
 }
@@ -1165,7 +1068,6 @@ input:focus:-ms-input-placeholder {
 .md_insurance_content p {
 	margin-bottom: 0px;
 	font-size: 20px;
-	/* margin-top: 100px */
 }
 
 .md_insurance_button {
@@ -1183,8 +1085,6 @@ input:focus:-ms-input-placeholder {
 	transition: all 0.3s;
 	position: relative;
 	border: 3px solid transparent;
-	color: #fff;
-	background-color: #FFA552;
 	font-weight: 700;
 }
 
@@ -1225,8 +1125,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_insurance_button .md_button a {
-	color: #fff;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -1288,7 +1187,7 @@ input:focus:-ms-input-placeholder {
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	margin-top: 490px;
+	margin-top: 40px;
 }
 
 .button_rev1 {
@@ -1563,6 +1462,60 @@ input:focus:-ms-input-placeholder {
 	color: white;
 	font-size: 14px;
 	margin-bottom: 0px;
+}
+
+.modal-footer .md_button {
+	background: #FFA552;
+	border: none;
+	font-size: 14px;
+	padding: 10px 15px;
+	color: #fff;
+	border: 3px solid transparent;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+	font-style: normal;
+	font-weight: 700;
+
+}
+
+.modal-footer .md_button:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0px;
+	height: 0px;
+	border-top: 2px solid white;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.modal-footer .md_button:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0px;
+	height: 0px;
+	border-bottom: 2px solid white;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.modal-footer .md_button:hover:before,
+.modal-footer .md_button:hover:after {
+	width: 100%;
+	height: 100%;
 }
 
 
