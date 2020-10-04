@@ -196,7 +196,7 @@
 	};
 
 
-
+	//СДЕЛАТЬ ФОРМУ!!!!!!!!
 	$("#form").submit(function (e) {
 		e.preventDefault();
 		$.ajax({
