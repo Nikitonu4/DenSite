@@ -22,14 +22,14 @@
 	});
 
 	// Menu js for Position fixed
-	$(window).scroll(function () {
-		var window_top = $(window).scrollTop() + 1;
-		if (window_top > 300) {
-			$('.md_navigation').addClass('menu_fixed animated fadeInDown');
-		} else {
-			$('.md_navigation').removeClass('menu_fixed animated fadeInDown');
-		}
-	});
+	// $(window).scroll(function () {
+	// 	var window_top = $(window).scrollTop() + 1;
+	// 	if (window_top > 300) {
+	// 		$('header').addClass('menu_fixed animated fadeInDown');
+	// 	} else {
+	// 		$('header').removeClass('menu_fixed animated fadeInDown');
+	// 	}
+	// });
 
 	//owl carousel 
 	$('.slider1').owlCarousel({

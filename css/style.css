@@ -504,8 +504,8 @@ button:focus {
 
 /* menu section end */
 
-ul,
-li {
+header ul,
+header li {
 	display: block;
 	padding: 0;
 	margin: 0;
@@ -562,6 +562,63 @@ li {
 	padding-top: 10px;
 }
 
+.menu li a {
+	float: left;
+	padding: 13px 20px;
+	font-size: 14px;
+	line-height: 17px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+}
+
+.menu li a:before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 50%;
+	width: 0%;
+	height: 100%;
+	z-index: -1;
+	background: #FFA552;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.menu li a:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 50%;
+	width: 0%;
+	height: 100%;
+	z-index: -1;
+	background: #FFA552;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.menu li:hover a:before,
+.menu li:hover a:after {
+	width: 50%;
+}
+
+.menu li:hover a {
+	color: white;
+}
+
 .md_navigation_app_button {
 	margin-left: 30px;
 }
@@ -569,20 +626,65 @@ li {
 .md_navigation_app_button .md_app_button {
 	background: #FFA552;
 	border: none;
+	font-size: 14px;
 	padding: 10px 15px;
 	color: #fff;
+	float: right;
 	border: 3px solid transparent;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+	position: relative;
 	font-style: normal;
 	font-weight: 700;
-	width: 100%;
 }
 
+.md_navigation_app_button .md_app_button:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0px;
+	height: 0px;
+	border-top: 2px solid white;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
 
+.md_navigation_app_button .md_app_button:after {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0px;
+	height: 0px;
+	border-bottom: 2px solid white;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.md_navigation_app_button .md_app_button:hover:before,
+.md_navigation_app_button .md_app_button:hover:after {
+	width: 100%;
+	height: 100%;
+}
+
+.menu_fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	z-index: 1000;
+	box-shadow: 0px -5px 20px;
+}
 
 
 /* modal */
@@ -792,12 +894,26 @@ input:focus:-ms-input-placeholder {
 .md_about_wrapper {
 	float: left;
 	width: 100%;
-	background-image: url(../photos/IMG_4044.JPG);
+	background: url(../images/bg_about.jpg);
+	background-repeat: no-repeat;
+	margin: 40px 0;
+
+	/* background-image: url(../photos/IMG_4044.JPG);
 	background-repeat: no-repeat;
 	background-position: 900px 40px;
 	background-size: contain;
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 40px; */
+
+	/* float: left;
+	width: 100%;
+	background-image: url(../photos/IMG_4044.JPG);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+	padding: 0;
+	position: relative;
+	margin: 40px 0; */
 
 	/* background-position: center; */
 
@@ -808,10 +924,21 @@ input:focus:-ms-input-placeholder {
 	padding: 0px;
 } */
 
+
+/* .about_img {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+	width: 500px;
+	height: 700px;
+} */
+
 .md_about_caption_box {
 	float: left;
 	width: 100%;
 	padding: 100px 50px 100px 0px;
+	/* background: white; */
 }
 
 .md_about_caption_box .col-lg-10 {
@@ -1008,6 +1135,8 @@ input:focus:-ms-input-placeholder {
 	height: 100px;
 	margin-top: 60px;
 }
+
+
 
 /* team end */
 
