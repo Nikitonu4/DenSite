@@ -279,7 +279,7 @@ button:focus {
 
 /* preloader section end */
 
-/* header section start */
+/* header section start
 .md_top_header {
 	float: left;
 	width: 100%;
@@ -321,11 +321,6 @@ button:focus {
 	text-align: center;
 	padding-left: 5px;
 }
-
-/* header section end */
-
-/* menu section start */
-
 
 .md_navigation {
 	float: left;
@@ -501,6 +496,97 @@ button:focus {
 	transition: all 0.3s;
 }
 
+
+
+.md_menu_btn {
+	display: none;
+} */
+
+/* menu section end */
+
+ul,
+li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.header {
+	padding: 15px 0;
+}
+
+.logo {
+	margin-right: 30px;
+	width: 180px;
+	height: 80px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.menu li {
+	margin-right: 40px;
+}
+
+.menu-open {
+	background: none;
+	border: none;
+	margin-left: 20px;
+	display: none
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	width: 1170px;
+}
+
+.contacts {
+	display: flex;
+}
+
+.contacts ul {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+.md_navigation_app_button {
+	margin-left: 30px;
+}
+
+.md_navigation_app_button .md_app_button {
+	background: #FFA552;
+	border: none;
+	padding: 10px 15px;
+	color: #fff;
+	border: 3px solid transparent;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	font-style: normal;
+	font-weight: 700;
+	width: 100%;
+}
+
+
+
+
+/* modal */
+
 .modal {
 	-webkit-transform: scale(0);
 	-moz-transform: scale(0);
@@ -617,12 +703,6 @@ input:focus:-ms-input-placeholder {
 	opacity: 0;
 	transition: opacity 0.1s ease;
 }
-
-.md_menu_btn {
-	display: none;
-}
-
-/* menu section end */
 
 /* slider section start */
 .md_slider_wrapper {
@@ -1458,9 +1538,19 @@ input:focus:-ms-input-placeholder {
 	width: 100%;
 }
 
+.md_license_content {
+	float: right;
+	width: 50%;
+}
+
+.md_license_content a {
+	color: white;
+	margin-bottom: 0px;
+	text-decoration: underline;
+}
+
 .md_footer_content p {
 	color: white;
-	font-size: 14px;
 	margin-bottom: 0px;
 }
 

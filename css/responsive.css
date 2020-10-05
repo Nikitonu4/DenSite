@@ -309,7 +309,6 @@
 		width: 200px;
 	}
 
-<<<<<<< HEAD
 
 	.md_navigation_menu {
 		width: 25%;
@@ -341,38 +340,12 @@
 		z-index: 500;
 		position: absolute;
 		right: 0;
-=======
-	.md_navigation_menu {
-		width: 200px;
-		z-index: 2;
-		position: fixed;
-		left: 0px;
-		top: 0px;
-		bottom: 0px;
-		background-color: #FFA552;
-		transform: translateX(-100%);
-		transition: all 0.3s;
-		margin-top: 0;
-	}
-
-	.md_menu_btn {
-		display: block;
-		float: right;
-		/* position: absolute; */
-		/* top: 10px; */
->>>>>>> 4a6d151199e35ea7ab734b76ebbdd26e82c221dd
 		border: none;
 		width: 50px;
 		height: 50px;
 		color: #010562;
-<<<<<<< HEAD
 		background-color: rgba(1, 1, 1, 0);
 		cursor: pointer;
-=======
-		background-color: white;
-		cursor: pointer;
-		float: right;
->>>>>>> 4a6d151199e35ea7ab734b76ebbdd26e82c221dd
 		margin: 5px;
 	}
 
@@ -384,13 +357,10 @@
 		width: 100%;
 	}
 
-<<<<<<< HEAD
 	.md_navigation_menu ul {
 		text-align: right;
 	}
 
-=======
->>>>>>> 4a6d151199e35ea7ab734b76ebbdd26e82c221dd
 	.md_navigation_menu ul li a {
 		color: white;
 	}
