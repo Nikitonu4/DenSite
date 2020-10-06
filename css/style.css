@@ -816,13 +816,13 @@ input:focus:-ms-input-placeholder {
 .md_slider_bg1 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.JPG);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
 	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4084.JPG);
+		url(../photos/slider/IMG_4084.jpg);
 	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../photos/slider/IMG_4084.jpg);
 	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4084.JPG);
+		url(../photos/slider/IMG_4084.jpg);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url(../photos/slider/IMG_4084.jpg);
 	background-size: cover;
