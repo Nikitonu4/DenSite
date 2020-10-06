@@ -1,3 +1,260 @@
+/*Responsive*/
+
+
+/* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.menu_fixed {
+		display: none;
+	}
+
+	ul.menu {
+		display: none;
+	}
+
+	.nav {
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.menu-toggle {
+		width: 40px;
+		height: 30px;
+		position: absolute;
+		top: 30px;
+		right: 25px;
+		cursor: pointer;
+	}
+
+
+
+	.menu-toggle.on .one {
+		-moz-transform: rotate(45deg) translate(7px, 7px);
+		-ms-transform: rotate(45deg) translate(7px, 7px);
+		-webkit-transform: rotate(45deg) translate(7px, 7px);
+		transform: rotate(45deg) translate(7px, 7px);
+		background: white;
+
+	}
+
+	.menu-toggle.on .two {
+		opacity: 0;
+		background: white;
+
+	}
+
+	.menu-toggle.on .three {
+		-moz-transform: rotate(-45deg) translate(8px, -10px);
+		-ms-transform: rotate(-45deg) translate(8px, -10px);
+		-webkit-transform: rotate(-45deg) translate(8px, -10px);
+		transform: rotate(-45deg) translate(8px, -10px);
+		background: white;
+	}
+
+
+
+	.one,
+	.two,
+	.three {
+		width: 100%;
+		height: 5px;
+		background: #010562;
+		margin: 6px auto;
+		backface-visibility: hidden;
+		-moz-transition-duration: 0.3s;
+		-o-transition-duration: 0.3s;
+		-webkit-transition-duration: 0.3s;
+		transition-duration: 0.3s;
+	}
+
+
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		margin: 7em auto;
+		text-align: center;
+	}
+
+	nav ul.hidden {
+		display: none;
+	}
+
+	nav ul a {
+		-moz-transition-duration: 0.5s;
+		-o-transition-duration: 0.5s;
+		-webkit-transition-duration: 0.5s;
+		transition-duration: 0.5s;
+		text-decoration: none;
+		color: white;
+		font-size: 34px;
+		line-height: 1.5;
+		width: 100%;
+		display: block;
+	}
+
+	nav ul a:hover {
+		background-color: rgba(248, 163, 53, 0.9);
+		color: white;
+	}
+
+	.menu-section.on {
+		z-index: 10000;
+		width: 100%;
+		height: 100%;
+		display: block;
+		background-color: rgba(52, 143, 146, 0.9);
+		position: fixed;
+		top: 0;
+		right: 0;
+	}
+
+	.md_about_caption_box {
+		padding: 0;
+	}
+
+	.photo_EA {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+	}
+
+	.main_doctor_name {
+		text-align: center;
+		float: none;
+		margin-bottom: 0;
+	}
+
+	.info_doctor {
+
+
+		margin-left: 260px;
+	}
+
+	.quote {
+		width: 100%;
+	}
+
+	h2.line.quote {
+		margin-top: 9px;
+	}
+
+	.md_service_wrapper {
+		padding: 30px 0px 0px 0px;
+	}
+
+	.md_price_links {
+		display: block;
+	}
+
+	.md_price_content p {
+		margin-bottom: 25px;
+	}
+
+	.md_license_content {
+		width: auto;
+	}
+
+	.md_footer_content {
+		text-align: center;
+	}
+
+	.md_license_content {
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+
+	.images .right-pic {
+		margin-top: -40px;
+	}
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.info_doctor {
+		margin-left: 130px;
+	}
+
+
+	.md_contact_form {
+		padding-left: 0;
+	}
+
+	.images .left-pic {
+		display: none;
+	}
+
+	.md_footer_content {
+		text-align: center;
+	}
+
+
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.md_navigation_app_button {
+		display: none;
+	}
+
+	.info_doctor {
+		margin-left: 40px;
+	}
+
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	.contacts {
+		display: none;
+	}
+
+	.nav {
+		justify-content: flex-start;
+	}
+
+	.buttons_review {
+		flex-direction: column;
+	}
+
+	.md_footer_wrapper {
+		margin-top: 60px;
+	}
+
+	.button_rev1,
+	.button_rev2 {
+		width: 250px;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.button_rev1 {
+		box-shadow: 0px 4px 10px #F8A335;
+	}
+
+	.button_rev2 {
+		box-shadow: 0px 4px 10px #348F92;
+	}
+}
+
 /* @media (min-width:992px) and (max-width:1199px) {
 	.md_about_img {
 		display: block;
@@ -285,43 +542,3 @@
 		margin: 10px 0px 10px 0px;
 	}
 } */
-
-
-/*Responsive*/
-
-
-/* 992px - 1200px */
-@media screen and (max-width: 1200px) {
-	.container {
-		width: 960px;
-	}
-
-	.menu_fixed {
-		visibility: hidden;
-	}
-}
-
-/* 768px - 992px */
-@media screen and (max-width: 992px) {
-	.container {
-		width: 720px;
-	}
-
-}
-
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
-	.container {
-		width: 540px;
-	}
-
-
-}
-
-/* 320px - 576px */
-@media screen and (max-width: 576px) {
-	.container {
-		width: 90%;
-	}
-
-}

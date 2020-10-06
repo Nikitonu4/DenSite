@@ -512,7 +512,7 @@ header li {
 }
 
 .header {
-	padding: 15px 0;
+	padding: 10px 0;
 }
 
 .logo {
@@ -529,14 +529,19 @@ header li {
 	text-transform: uppercase;
 	font-size: 15px;
 	letter-spacing: 0.1em;
-}
-
-.menu li a:hover {
-	border-bottom: 1px solid #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .menu li {
 	margin-right: 40px;
+}
+
+.menu li:last-child {
+	margin-right: 20px;
 }
 
 .menu-open {
@@ -554,6 +559,7 @@ header li {
 
 .contacts {
 	display: flex;
+	margin-right: 20px;
 }
 
 .contacts ul {
@@ -562,65 +568,56 @@ header li {
 	padding-top: 10px;
 }
 
-.menu li a {
-	float: left;
-	padding: 13px 20px;
-	font-size: 14px;
-	line-height: 17px;
-	font-style: normal;
-	font-weight: normal;
-	text-transform: uppercase;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+
+ul.menu li a {
 	position: relative;
+	display: block;
+	padding: 8px 3px;
+	text-decoration: none;
+	transition: 0.5s;
+	overflow: hidden;
 }
 
-.menu li a:before {
+ul.menu li a::before {
+	content: '';
 	position: absolute;
-	content: "";
-	top: 0;
-	left: 50%;
-	width: 0%;
-	height: 100%;
-	z-index: -1;
+	top: calc(50% - 2px);
+	left: -100%;
+	width: 100%;
+	height: 4px;
 	background: #FFA552;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: 0.5s;
 }
 
-.menu li a:after {
-	position: absolute;
-	content: "";
-	top: 0;
-	right: 50%;
-	width: 0%;
-	height: 100%;
-	z-index: -1;
-	background: #FFA552;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+ul.menu li a:hover {
+	color: #fff;
 }
 
-.menu li:hover a:before,
-.menu li:hover a:after {
-	width: 50%;
+ul.menu li a:hover::before {
+	animation: animate .5s linear forwards;
 }
 
-.menu li:hover a {
-	color: white;
-}
+@keyframes animate {
+	0% {
+		top: calc(50% - 2px);
+		left: -100%;
+		height: 1px;
+		z-index: 1;
+	}
 
-.md_navigation_app_button {
-	margin-left: 30px;
+	50% {
+		top: calc(50% - 2px);
+		left: 0;
+		height: 1px;
+		z-index: 1;
+	}
+
+	100% {
+		top: 0;
+		left: 0;
+		height: 100%;
+		z-index: -1;
+	}
 }
 
 .md_navigation_app_button .md_app_button {
@@ -685,6 +682,10 @@ header li {
 	z-index: 1000;
 	box-shadow: 0px -5px 20px;
 }
+
+
+
+
 
 
 /* modal */
@@ -1088,21 +1089,28 @@ input:focus:-ms-input-placeholder {
 .md_team_wrapper {
 	display: flex;
 	width: 100%;
+	justify-content: space-between;
 	margin-bottom: 40px;
 }
 
 .md_team_heading h1 {
-
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 50px;
 	margin-top: 50px;
 }
 
+.team_about {
+	align-items: center;
+}
+
 .photo_EA {
 	float: left;
-	width: 450px;
-	height: 500px;
+	width: 100%;
+	max-width: 450px;
+	height: auto;
+	/* width: 450px; */
+
 }
 
 .main_doctor_name,
@@ -1364,7 +1372,7 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	padding: 30px 0px;
-	height: 700px;
+	height: 600px;
 }
 
 .md_review_caption {
@@ -1382,7 +1390,7 @@ input:focus:-ms-input-placeholder {
 
 .md_review_content h1 {
 	font-weight: bold;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 }
 
 .other_reviews {
@@ -1433,8 +1441,7 @@ input:focus:-ms-input-placeholder {
 
 .button_rev1:visited,
 .button_rev2:visited {
-	color:
-		white;
+	color: white;
 }
 
 .rev1,
