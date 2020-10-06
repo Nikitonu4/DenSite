@@ -816,15 +816,15 @@ input:focus:-ms-input-placeholder {
 .md_slider_bg1 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/IMG_4084.JPG);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.JPG);
 	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(.../photos/IMG_4084.JPG);
+		url(../photos/slider/IMG_4084.JPG);
 	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4084.JPG);
+		url(../photos/slider/IMG_4084.JPG);
 	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4084.);
+		url(../photos/slider/IMG_4084.JPG);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4084.JPG);
+		url(../photos/slider/IMG_4084.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -837,15 +837,15 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.JPG);
+		url(../photos/slider/IMG_3995.JPG);
 	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.JPG);
+		url(../photos/slider/IMG_3995.JPG);
 	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.JPG);
+		url(../photos/slider/IMG_3995.JPG);
 	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.JPG);
+		url(../photos/slider/IMG_3995.JPG);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_3995.JPG);
+		url(../photos/slider/IMG_3995.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -858,15 +858,15 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.JPG);
+		url(../photos/slider/IMG_4003.JPG);
 	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.JPG);
+		url(../photos/slider/IMG_4003.JPG);
 	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.JPG);
+		url(../photos/slider/IMG_4003.JPG);
 	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.JPG);
+		url(../photos/slider/IMG_4003.JPG);
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/IMG_4003.JPG);
+		url(../photos/slider/IMG_4003.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
