@@ -889,6 +889,10 @@ input:focus:-ms-input-placeholder {
 	margin-bottom: 30px;
 }
 
+.md_slider_bg_content {
+	padding-left: 50px;
+}
+
 /* slider section end */
 
 /* about seciton start */

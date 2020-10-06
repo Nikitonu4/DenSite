@@ -49,9 +49,18 @@
 		responsive: {
 			0: {
 				items: 1,
+				nav: false,
+				dots: true,
 			},
 			600: {
 				items: 1,
+				nav: false,
+				dots: true,
+			},
+			992: {
+				items: 1,
+				nav: false,
+				dots: true,
 			},
 			1000: {
 				items: 1,
@@ -60,15 +69,18 @@
 	});
 
 	$('.slider2').owlCarousel({
-		items: 6,
+		items: 1,
 		loop: true,
 		margin: 10,
 		merge: true,
+		lazyLoad: true,
 		responsive: {
 			678: {
+				items: 1,
 				mergeFit: true
 			},
 			1000: {
+				items: 6,
 				mergeFit: false
 			}
 		}
