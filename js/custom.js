@@ -9,7 +9,6 @@
 		$(this).toggleClass("on");
 		$('.menu-section').toggleClass("on");
 		$("nav ul").toggleClass('hidden');
-
 		$(".nav ul li").on('click', function () {
 			$(this).toggleClass("on");
 			$('.menu-section').toggleClass("on");

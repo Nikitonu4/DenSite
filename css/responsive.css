@@ -113,6 +113,10 @@
 		right: 0;
 	}
 
+	.md_progress_caption {
+		margin-bottom: 27px;
+	}
+
 	.md_about_caption_box {
 		padding: 0;
 	}
