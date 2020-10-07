@@ -1258,10 +1258,10 @@ input:focus:-ms-input-placeholder {
 .md_insurance_wrapper {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient url(../images/gift_bg.jpg);
-	background: -moz-linear-gradient url(../images/gift_bg.jpg);
-	background: -ms-linear-gradient url(../images/gift_bg.jpg);
-	background: -o-linear-gradient url(../images/gift_bg.jpg);
+	background: -webkit-linear-gradient url(../images/gift_bg.JPG);
+	background: -moz-linear-gradient url(../images/gift_bg.JPG);
+	background: -ms-linear-gradient url(../images/gift_bg.JPG);
+	background: -o-linear-gradient url(../gift_bg/gift_bg.JPG);
 	background: linear-gradient(rgba(7, 188, 131, 0), rgba(7, 188, 131, 0)),
 		url(../images/gift_bg.JPG);
 	background-size: cover;
