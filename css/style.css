@@ -1,44 +1,43 @@
 body {
-	font-family: 'Montserrat',
-		sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	color: #010562;
 	margin: 0;
-	padding: 0;
+	padding: 0
 }
 
 p {
 	color: #010562;
-	font-size: 14px;
+	font-size: 14px
 }
 
 a {
 	color: #010562;
 	text-decoration: none;
-	cursor: pointer;
+	cursor: pointer
 }
 
 a:hover,
 a:focus {
 	color: #010562;
-	text-decoration: none;
+	text-decoration: none
 }
 
 h1 {
 	font-size: 34px;
-	font-weight: bold;
+	font-weight: bold
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 25px
 }
 
 h3 {
-	font-size: 19px;
+	font-size: 19px
 }
 
 a:focus {
-	outline: none;
+	outline: none
 }
 
 h1,
@@ -47,56 +46,55 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat',
-		sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	line-height: 1.1;
-	color: #010562;
+	color: #010562
 }
 
 .container {
 	width: 1170px;
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 input {
-	outline: none;
+	outline: none
 }
 
 input:focus {
 	outline: none !important;
-	box-shadow: none !important;
+	box-shadow: none !important
 }
 
 textarea {
-	outline: none;
+	outline: none
 }
 
 textarea:focus {
 	outline: none;
-	box-shadow: none;
+	box-shadow: none
 }
 
 button {
 	outline: none;
-	background-color: #006A91;
+	background-color: #006A91
 }
 
 button:focus {
 	outline: none;
-	box-shadow: none;
+	box-shadow: none
 }
 
 .form-control::-moz-placeholder {
-	color: #1990ce;
+	color: #1990ce
 }
 
 .form-control:-ms-input-placeholder {
-	color: #1990ce;
+	color: #1990ce
 }
 
 .form-control::-webkit-input-placeholder {
-	color: #1990ce;
+	color: #1990ce
 }
 
 .md_button {
@@ -104,7 +102,7 @@ button:focus {
 	background: #FFA552;
 	border: none;
 	color: #fff;
-	font-size: 15px;
+	font-size: 15px
 }
 
 #preloader {
@@ -116,13 +114,13 @@ button:focus {
 	top: 0;
 	z-index: 2147483647;
 	width: 100%;
-	height: 100%;
+	height: 100%
 }
 
 .fish {
 	width: 150px;
 	height: 100px;
-	animation: swim 3s infinite;
+	animation: swim 3s infinite
 }
 
 .fish-body {
@@ -132,7 +130,7 @@ button:focus {
 	background-color: orange;
 	border-radius: 50%;
 	width: 150px;
-	height: 100px;
+	height: 100px
 }
 
 .eye {
@@ -143,7 +141,7 @@ button:focus {
 	background-color: white;
 	border-radius: 50%;
 	width: 20px;
-	height: 20px;
+	height: 20px
 }
 
 .pupil {
@@ -154,7 +152,7 @@ button:focus {
 	background-color: black;
 	border-radius: 50%;
 	height: 10px;
-	width: 10px;
+	width: 10px
 }
 
 .fin {
@@ -163,12 +161,12 @@ button:focus {
 	border-radius: 50%;
 	transform: rotate(40deg);
 	width: 80px;
-	height: 50px;
+	height: 50px
 }
 
 .fin-bottom {
 	margin-top: -10px;
-	transform: rotate(-40deg);
+	transform: rotate(-40deg)
 }
 
 .bubbles {
@@ -181,75 +179,74 @@ button:focus {
 	opacity: .50;
 	width: 40px;
 	height: 40px;
-	animation: up 4s infinite;
+	animation: up 4s infinite
 }
 
 .bubble-2 {
 	left: 350px;
-	animation: up 2s infinite;
+	animation: up 2s infinite
 }
 
 .bubble-3 {
 	left: 750px;
 	opacity: .30;
-	animation: up 5s infinite;
+	animation: up 5s infinite
 }
 
 .bubble-4 {
 	left: 1150px;
-	animation: up 6s infinite;
+	animation: up 6s infinite
 }
 
 .bubble-5 {
 	left: 50px;
-	animation: up 5s infinite;
+	animation: up 5s infinite
 }
 
 .bubble-6 {
 	left: 300px;
 	opacity: .30;
-	animation: up 3s infinite;
+	animation: up 3s infinite
 }
 
 .bubble-7 {
 	left: 670px;
-	animation: up 4s infinite;
+	animation: up 4s infinite
 }
 
 .bubble-8 {
 	left: 1050px;
 	opacity: .30;
-	animation: up 3s infinite;
+	animation: up 3s infinite
 }
 
 @keyframes swim {
-	0% {
-		transform: translateY(-50px) translateX(0) rotate(30deg);
+	0 {
+		transform: translateY(-50px) translateX(0) rotate(30deg)
 	}
 
 	25% {
-		transform: translateY(50px) translateX(250px) rotate(20deg);
+		transform: translateY(50px) translateX(250px) rotate(20deg)
 	}
 
 	50% {
-		transform: translateY(100px) translateX(500px);
+		transform: translateY(100px) translateX(500px)
 	}
 
 	75% {
-		transform: translateY(50px) translateX(850px) rotate(-20deg);
+		transform: translateY(50px) translateX(850px) rotate(-20deg)
 	}
 
 	100% {
-		transform: translateY(-170px) translateX(1200px) rotate(-40deg);
+		transform: translateY(-170px) translateX(1200px) rotate(-40deg)
 	}
 }
 
 @keyframes up {
 	100% {
-		transform: translateY(-800px);
+		transform: translateY(-800px)
 	}
 }
-
 
 #status {
 	background-position: center center;
@@ -262,28 +259,28 @@ button:focus {
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%)
 }
 
 header ul,
 header li {
 	display: block;
 	padding: 0;
-	margin: 0;
+	margin: 0
 }
 
 .header {
-	padding: 10px 0;
+	padding: 10px 0
 }
 
 .logo {
 	margin-right: 30px;
 	width: 180px;
-	height: 80px;
+	height: 80px
 }
 
 .menu {
-	display: flex;
+	display: flex
 }
 
 .menu li a {
@@ -294,15 +291,15 @@ header li {
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .menu li {
-	margin-right: 40px;
+	margin-right: 40px
 }
 
 .menu li:last-child {
-	margin-right: 20px;
+	margin-right: 20px
 }
 
 .menu-open {
@@ -315,20 +312,19 @@ header li {
 .nav {
 	display: flex;
 	align-items: center;
-	width: 1170px;
+	width: 1170px
 }
 
 .contacts {
 	display: flex;
-	margin-right: 20px;
+	margin-right: 20px
 }
 
 .contacts ul {
 	display: flex;
 	flex-direction: column;
-	padding-top: 10px;
+	padding-top: 10px
 }
-
 
 ul.menu li a {
 	position: relative;
@@ -336,7 +332,7 @@ ul.menu li a {
 	padding: 8px 3px;
 	text-decoration: none;
 	transition: 0.5s;
-	overflow: hidden;
+	overflow: hidden
 }
 
 ul.menu li a::before {
@@ -347,37 +343,37 @@ ul.menu li a::before {
 	width: 100%;
 	height: 4px;
 	background: #FFA552;
-	transition: 0.5s;
+	transition: 0.5s
 }
 
 ul.menu li a:hover {
-	color: #fff;
+	color: #fff
 }
 
 ul.menu li a:hover::before {
-	animation: animate .5s linear forwards;
+	animation: animate .5s linear forwards
 }
 
 @keyframes animate {
-	0% {
+	0 {
 		top: calc(50% - 2px);
 		left: -100%;
 		height: 1px;
-		z-index: 1;
+		z-index: 1
 	}
 
 	50% {
 		top: calc(50% - 2px);
 		left: 0;
 		height: 1px;
-		z-index: 1;
+		z-index: 1
 	}
 
 	100% {
 		top: 0;
 		left: 0;
 		height: 100%;
-		z-index: -1;
+		z-index: -1
 	}
 }
 
@@ -396,7 +392,7 @@ ul.menu li a:hover::before {
 	transition: all 0.3s;
 	position: relative;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .md_navigation_app_button .md_app_button:before {
@@ -404,14 +400,14 @@ ul.menu li a:hover::before {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-top: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_navigation_app_button .md_app_button:after {
@@ -419,20 +415,20 @@ ul.menu li a:hover::before {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-bottom: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_navigation_app_button .md_app_button:hover:before,
 .md_navigation_app_button .md_app_button:hover:after {
 	width: 100%;
-	height: 100%;
+	height: 100%
 }
 
 .menu_fixed {
@@ -441,7 +437,7 @@ ul.menu li a:hover::before {
 	width: 100%;
 	background: white;
 	z-index: 1000;
-	box-shadow: 0px -5px 20px;
+	box-shadow: 0 -5px 20px
 }
 
 .modal {
@@ -454,7 +450,7 @@ ul.menu li a:hover::before {
 	-moz-transition: all 0.25s ease;
 	-ms-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
-	transition: all 0.25s ease;
+	transition: all 0.25s ease
 }
 
 .modal.in {
@@ -462,7 +458,7 @@ ul.menu li a:hover::before {
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	-o-transform: scale(1);
-	transform: scale(1);
+	transform: scale(1)
 }
 
 .modal-dialog {
@@ -473,177 +469,160 @@ ul.menu li a:hover::before {
 	-moz-transform: translate(-50%, -50%) !important;
 	-ms-transform: translate(-50%, -50%) !important;
 	-o-transform: translate(-50%, -50%) !important;
-	transform: translate(-50%, -50%) !important;
+	transform: translate(-50%, -50%) !important
 }
 
 .modal-content {
-	border-radius: 0px;
-	background: #AEDADD;
+	border-radius: 0;
+	background: #AEDADD
 }
 
 .modal-header h4 {
 	font-weight: 600;
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 5px
 }
 
 .md_modal_form_group input {
 	height: 45px;
 	width: 440px;
-	margin: 15px 0px;
+	margin: 15px 0;
 	border: none;
-	border-radius: 0;
+	border-radius: 0
 }
 
 .md_modal_form_group {
 	margin: 15px 60px;
-	color: #A7A7A7;
+	color: #A7A7A7
 }
 
 .md_modal_form_group input:focus {
 	outline: none;
-	box-shadow: none;
+	box-shadow: none
 }
 
 .modal-footer {
-	text-align: center;
+	text-align: center
 }
 
 .modal-body .row {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column
 }
 
 input[type="text"]::placeholder {
-	color: rgba(167,
-			167,
-			167,
-			1);
+	color: rgba(167, 167, 167, 1)
 }
 
 input::-webkit-input-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 input::-moz-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 input:-moz-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 input:-ms-input-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 input:focus::-webkit-input-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 input:focus::-moz-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 input:focus:-moz-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 input:focus:-ms-input-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease;
+	transition: opacity 0.1s ease
 }
 
 .md_slider_wrapper {
 	float: left;
-	width: 100%;
+	width: 100%
 }
 
 .md_slider_bg1 {
 	float: left;
 	width: 100%;
 	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4084.jpg);
-	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4084.jpg);
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4084.jpg);
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4084.jpg);
+	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
+	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	padding: 100px 0px;
-	height: 500px;
+	padding: 100px 0;
+	height: 500px
 }
 
 .md_slider_bg2 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_3995.jpg);
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_3995.jpg);
-	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_3995.jpg);
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_3995.jpg);
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_3995.jpg);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
+	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
+	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	padding: 100px 0px;
-	height: 500px;
+	padding: 100px 0;
+	height: 500px
 }
 
 .md_slider_bg3 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4003.jpg);
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4003.jpg);
-	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4003.jpg);
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4003.jpg);
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url(../photos/slider/IMG_4003.jpg);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
+	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
+	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
+	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	padding: 100px 0px;
-	height: 500px;
+	padding: 100px 0;
+	height: 500px
 }
 
 .md_slider_bg_content h1 {
 	color: white;
 	font-weight: bold;
 	line-height: 1.3;
-	font-size: 50px;
+	font-size: 50px
 }
 
 .md_slider_bg_content p {
 	color: white;
 	font-size: 20px;
 	font-style: italic;
-	margin-bottom: 30px;
+	margin-bottom: 30px
 }
 
 .md_slider_bg_content {
-	padding-left: 50px;
+	padding-left: 50px
 }
 
 .md_about_wrapper {
@@ -651,54 +630,54 @@ input:focus:-ms-input-placeholder {
 	width: 100%;
 	background: url(../images/bg_about.jpg);
 	background-repeat: no-repeat;
-	margin: 40px 0;
+	margin: 40px 0
 }
 
 .md_about_caption_box {
 	float: left;
 	width: 100%;
-	padding: 50 50px 100px 0px;
+	padding: 50 50px 100px 0
 }
 
 .md_about_caption_box .col-lg-10 {
-	padding: 0px;
+	padding: 0
 }
 
 .md_about_caption_content {
 	float: left;
-	width: 100%;
+	width: 100%
 }
 
 .md_about_caption_content img {
 	margin-bottom: 10px;
 	width: 50px;
-	height: 50px;
+	height: 50px
 }
 
 .md_about_caption_content h1 {
-	margin-top: 0px;
-	font-weight: bold;
+	margin-top: 0;
+	font-weight: bold
 }
 
 .md_about_caption_content h1 span {
-	color: #07bb83;
+	color: #07bb83
 }
 
 .md_about_caption_content p {
 	font-size: 15px;
-	margin-bottom: 0px;
-	color: #010562;
+	margin-bottom: 0;
+	color: #010562
 }
 
 .md_about_caption_icon_box {
 	float: left;
-	width: 100%;
+	width: 100%
 }
 
 .md_about_caption_icons {
 	float: left;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 30px
 }
 
 .md_about_caption_icons .md_about_icon {
@@ -710,7 +689,7 @@ input:focus:-ms-input-placeholder {
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_about_caption_icons:hover .md_about_icon {
@@ -718,55 +697,55 @@ input:focus:-ms-input-placeholder {
 	-moz-transform: rotateY(180deg);
 	-ms-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
-	transform: rotateY(180deg);
+	transform: rotateY(180deg)
 }
 
 .md_about_caption_icons .md_about_icon_content {
 	float: right;
-	width: calc(100% - 120px);
+	width: calc(100% - 120px)
 }
 
 .md_about_caption_icons .md_about_icon_content h2 {
-	font-weight: bold;
+	font-weight: bold
 }
 
 .md_about_caption_icons .md_about_icon_content p {
-	margin-bottom: 0px;
+	margin-bottom: 0
 }
 
 .md_about_img {
 	float: left;
 	width: 100%;
-	display: none;
+	display: none
 }
 
 .md_progress_wrapper {
 	float: left;
 	width: 100%;
-	padding: 20px 0px 50px 0px;
-	background-color: rgb(188, 232, 233, 0.54);
+	padding: 20px 0 50px 0;
+	background-color: rgb(188, 232, 233, 0.54)
 }
 
 .md_progress_heading img {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	width: 50px;
-	height: 50px;
+	height: 50px
 }
 
 .md_progress_heading {
 	float: left;
 	width: 100%;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 50px
 }
 
 .md_progress_heading h1 {
-	font-weight: bold;
+	font-weight: bold
 }
 
 .md_progress_heading p {
-	margin-bottom: 0px;
-	font-size: 20px;
+	margin-bottom: 0;
+	font-size: 20px
 }
 
 .md_progress_caption:hover img {
@@ -775,150 +754,149 @@ input:focus:-ms-input-placeholder {
 	-ms-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_progress_caption {
 	float: left;
 	width: 100%;
-	text-align: center;
+	text-align: center
 }
 
 .md_progress_caption h2 {
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 20px
 }
 
 .md_progress_caption p {
-	margin-bottom: 0px;
+	margin-bottom: 0
 }
 
 .md_team_wrapper {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
-	margin-bottom: 40px;
+	margin-bottom: 40px
 }
 
 .md_team_heading h1 {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 50px;
-	margin-top: 20px;
+	margin-top: 20px
 }
 
 .team_about {
-	align-items: center;
+	align-items: center
 }
 
 .photo_EA {
 	float: left;
 	width: 100%;
 	max-width: 450px;
-	height: auto;
+	height: auto
 }
 
 .main_doctor_name,
 .quote {
-	float: right;
+	float: right
 }
 
 .line {
 	border-left: 8px solid #DBF2F3;
-	padding-left: 10px;
+	padding-left: 10px
 }
 
 .main_doctor_name {
-	margin: 20px 150px;
+	margin: 20px 150px
 }
 
 .info_doctor {
 	margin-left: 125px;
 	float: left;
 	padding-top: 30px;
-	line-height: 24px;
+	line-height: 24px
 }
 
 .info_doctor p {
-	font-size: 15px;
+	font-size: 15px
 }
 
 .quote {
 	width: 655px;
 	height: 100px;
-	margin-top: 60px;
+	margin-top: 60px
 }
 
 .md_service_wrapper {
 	float: left;
 	width: 100%;
-	padding: 30px 0px 60px 0px;
-	background-color: #DCF3F3;
+	padding: 30px 0 60px 0;
+	background-color: #DCF3F3
 }
 
 .md_service_heading img {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	width: 50px;
-	height: 50px;
+	height: 50px
 }
 
 .md_service_heading {
 	float: left;
 	width: 100%;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 50px
 }
 
 .md_service_heading h2 {
 	font-size: 34px;
-	font-weight: bold;
+	font-weight: bold
 }
 
 .md_service_heading p {
-	margin-bottom: 0px;
-	font-size: 20px;
+	margin-bottom: 0;
+	font-size: 20px
 }
 
 .md_service_caption {
 	float: left;
 	width: 100%;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 50px
 }
 
 .md_service_caption h4 {
 	font-weight: bold;
 	font-size: 22px;
-	margin: 10px 0px;
-	margin-top: 20px;
+	margin: 10px 0;
+	margin-top: 20px
 }
 
 .md_service_caption p {
 	font-size: 18px;
-	margin-bottom: 0px;
+	margin-bottom: 0
 }
 
 .md_price_wrapper {
 	float: center;
 	width: 100%;
-	padding: 120px 0px;
-	padding-bottom: 50px;
+	padding: 120px 0;
+	padding-bottom: 50px
 }
 
 .md_price_caption {
 	float: left;
 	width: 100%;
-	text-align: center;
+	text-align: center
 }
 
 .md_price_content {
 	float: left;
-	width: 100%;
+	width: 100%
 }
 
 .md_price_content h1 {
@@ -929,23 +907,23 @@ input:focus:-ms-input-placeholder {
 
 .md_price_content p {
 	margin-bottom: 50px;
-	font-size: 20px;
+	font-size: 20px
 }
 
 .md_price_links {
 	justify-content: space-between;
-	display: inline-flex;
+	display: inline-flex
 }
 
 .price1,
 .price2,
 .price3,
 .price4 {
-	margin: 0px 50px;
+	margin: 0 50px
 }
 
 .md_price_links a {
-	text-decoration: underline;
+	text-decoration: underline
 }
 
 .md_insurance_wrapper {
@@ -955,40 +933,39 @@ input:focus:-ms-input-placeholder {
 	background: -moz-linear-gradient url(../images/gift_bg.JPG);
 	background: -ms-linear-gradient url(../images/gift_bg.JPG);
 	background: -o-linear-gradient url(../gift_bg/gift_bg.JPG);
-	background: linear-gradient(rgba(7, 188, 131, 0), rgba(7, 188, 131, 0)),
-		url(../images/gift_bg.JPG);
+	background: linear-gradient(rgba(7, 188, 131, 0), rgba(7, 188, 131, 0)), url(../images/gift_bg.JPG);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
-	padding: 30px 0px;
+	padding: 30px 0
 }
 
 .md_insurance_caption {
 	float: left;
 	width: 100%;
-	text-align: center;
+	text-align: center
 }
 
 .md_insurance_content {
 	float: left;
-	width: 100%;
+	width: 100%
 }
 
 .md_insurance_content h1 {
 	font-weight: bold;
-	margin-bottom: 50px;
+	margin-bottom: 50px
 }
 
 .md_insurance_content p {
-	margin-bottom: 0px;
-	font-size: 20px;
+	margin-bottom: 0;
+	font-size: 20px
 }
 
 .md_insurance_button {
 	float: left;
 	width: 100%;
 	margin-top: 30px;
-	padding: 10px 15px;
+	padding: 10px 15px
 }
 
 .md_insurance_button .md_button {
@@ -999,7 +976,7 @@ input:focus:-ms-input-placeholder {
 	transition: all 0.3s;
 	position: relative;
 	border: 3px solid transparent;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .md_insurance_button .md_button:before {
@@ -1007,14 +984,14 @@ input:focus:-ms-input-placeholder {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-top: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_insurance_button .md_button:after {
@@ -1022,45 +999,45 @@ input:focus:-ms-input-placeholder {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-bottom: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_insurance_button .md_button:hover:before,
 .md_insurance_button .md_button:hover:after {
 	width: 100%;
-	height: 100%;
+	height: 100%
 }
 
 .md_insurance_button .md_button a {
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: bold
 }
 
 .md_gallery_wrapper {
 	float: left;
 	width: 100%;
-	padding: 30px 0px;
+	padding: 30px 0
 }
 
 .md_gallery_heading h1 {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 50px;
-	font-weight: bold;
+	font-weight: bold
 }
 
 .md_review_wrapper {
 	float: left;
 	width: 100%;
-	padding: 30px 0px;
-	height: 600px;
+	padding: 30px 0;
+	height: 600px
 }
 
 .md_review_caption {
@@ -1068,22 +1045,21 @@ input:focus:-ms-input-placeholder {
 	width: 100%;
 	text-align: center;
 	position: relative;
-	z-index: 3;
+	z-index: 3
 }
 
 .md_review_content {
 	float: center;
-	width: 100%;
+	width: 100%
 }
 
 .md_review_content h1 {
-	font-weight: bold;
+	font-weight: bold
 }
 
 .other_reviews {
 	margin-top: 70px;
-	align-items: center;
-
+	align-items: center
 }
 
 .buttons_review {
@@ -1091,70 +1067,68 @@ input:focus:-ms-input-placeholder {
 	justify-content: center;
 	width: 100%;
 	align-items: center;
-	margin-top: 40px;
+	margin-top: 40px
 }
 
 .button_rev1 {
 	background: #F8A335;
-	box-shadow: 0px 4px 20px #F8A335;
+	box-shadow: 0 4px 20px #F8A335;
 	padding: 18.05px 34.32px;
 	color: white;
 	text-align: center;
-	text-decoration: none;
+	text-decoration: none
 }
 
 .button_rev2 {
 	background: #348F92;
-	box-shadow: 0px 4px 20px #348F92;
+	box-shadow: 0 4px 20px #348F92;
 	padding: 18.05px 23.32px;
 	text-align: center;
 	color: white;
 	margin-right: 50px;
-	text-decoration: none;
+	text-decoration: none
 }
 
 .button_rev1:hover {
 	color: white;
-	box-shadow: 0px 4px 50px #F8A335;
-	transition: all 0.3s;
-
+	box-shadow: 0 4px 50px #F8A335;
+	transition: all 0.3s
 }
 
 .button_rev2:hover {
 	color: white;
-	box-shadow: 0px 4px 50px #348F92;
-	transition: all 0.3s;
+	box-shadow: 0 4px 50px #348F92;
+	transition: all 0.3s
 }
 
 .button_rev1:visited,
 .button_rev2:visited {
-	color: white;
+	color: white
 }
 
 .rev1,
 .rev2,
 .rev3 {
 	margin-bottom: 43px;
-	z-index: 999;
+	z-index: 999
 }
 
 .md_review_content p {
-	font-style: 15px;
+	font-style: 15px
 }
 
 .images {
 	display: block;
 	z-index: -1;
 	position: relative;
-	top: -460px;
+	top: -460px
 }
 
 .left-pic {
 	width: 637.77px;
 	height: 443.23px;
 	float: left;
-	display: block;
-
+	display: block
 }
 
 .right-pic {
@@ -1162,54 +1136,54 @@ input:focus:-ms-input-placeholder {
 	height: 321.7px;
 	float: right;
 	display: block;
-	margin-top: 100px;
+	margin-top: 100px
 }
 
 .md_footer_wrapper {
 	float: left;
 	width: 100%;
 	padding-top: 50px;
-	background: #0F4C4F;
+	background: #0F4C4F
 }
 
 .md_contact {
 	float: left;
-	width: 100%;
+	width: 100%
 }
 
 .md_contact_form {
 	float: left;
 	width: 100%;
 	margin-bottom: 20px;
-	padding-left: 80px;
+	padding-left: 80px
 }
 
 .md_contact_form h4 {
-	margin-top: 0px;
+	margin-top: 0;
 	color: white;
 	font-weight: bold;
 	border-bottom: 1px solid #BBE3DC;
 	padding-bottom: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 .md_contact_form input {
 	background: none;
-	border-radius: 0px;
+	border-radius: 0;
 	height: 40px;
 	border: 1px solid #BBE3DC;
 	margin-bottom: 20px;
 	color: #BBE3DC;
 	font-weight: bold;
-	font-style: italic;
+	font-style: italic
 }
 
 .md_contact_form input:focus {
-	border-color: #BBE3DC;
+	border-color: #BBE3DC
 }
 
 .md_contact_form button {
-	border-radius: 0px;
+	border-radius: 0;
 	height: 45px;
 	position: relative;
 	width: 170px;
@@ -1222,8 +1196,7 @@ input:focus:-ms-input-placeholder {
 	border: 3px solid transparent;
 	font-weight: 700;
 	font-size: 15px;
-	padding: 10px 15px;
-
+	padding: 10px 15px
 }
 
 .md_contact_form button:before {
@@ -1231,14 +1204,14 @@ input:focus:-ms-input-placeholder {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-top: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_contact_form button:after {
@@ -1246,132 +1219,132 @@ input:focus:-ms-input-placeholder {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-bottom: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .md_contact_form button:hover:before,
 .md_contact_form button:hover:after {
 	width: 100%;
-	height: 100%;
+	height: 100%
 }
 
 .md_contact_form button a {
 	color: white;
-	font-size: 18px;
+	font-size: 18px
 }
 
 .md_contact_hour {
 	float: left;
 	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 50px
 }
 
 .md_contact_hour h4 {
-	margin-top: 0px;
+	margin-top: 0;
 	color: white;
 	font-weight: bold;
 	border-bottom: 2px solid #BBE3DC;
 	padding-bottom: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 .md_contact_hour ul {
 	list-style: none;
-	padding: 0px;
-	margin: 0px;
+	padding: 0;
+	margin: 0
 }
 
 .md_contact_hour ul li {
 	color: white;
 	font-style: italic;
 	font-size: 16px;
-	margin-bottom: 10px;
+	margin-bottom: 10px
 }
 
 .md_contact_hour ul li:last-child {
-	margin-bottom: 0px;
+	margin-bottom: 0
 }
 
 .md_contact_hour ul li span {
-	float: right;
+	float: right
 }
 
 .md_contact_address {
 	float: left;
 	width: 100%;
 	margin-bottom: 50px;
-	padding-right: 80px;
+	padding-right: 80px
 }
 
 .md_contact_address h4 {
-	margin-top: 0px;
+	margin-top: 0;
 	color: white;
 	font-weight: bold;
 	border-bottom: 2px solid #BBE3DC;
 	padding-bottom: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 .md_contact_address_caption {
 	float: left;
 	width: 100%;
-	margin-bottom: 20px;
+	margin-bottom: 20px
 }
 
 .md_contact_address_icon {
 	float: left;
-	text-align: center;
+	text-align: center
 }
 
 .md_contact_address_content {
 	float: right;
-	width: calc(100% - 75px);
+	width: calc(100% - 75px)
 }
 
 .md_contact_address_content p {
 	color: white;
 	font-size: 16px;
 	font-style: italic;
-	margin-bottom: 0px;
+	margin-bottom: 0
 }
 
 .md_contact_address_content p a {
-	color: white;
+	color: white
 }
 
 .md_footer {
 	float: left;
 	width: 100%;
 	border-top: 1px solid #BBE3DC;
-	padding: 30px 0px;
+	padding: 30px 0
 }
 
 .md_footer_content {
 	float: left;
-	width: 100%;
+	width: 100%
 }
 
 .md_license_content {
 	float: right;
-	width: 50%;
+	width: 50%
 }
 
 .md_license_content a {
 	color: white;
-	margin-bottom: 0px;
-	text-decoration: underline;
+	margin-bottom: 0;
+	text-decoration: underline
 }
 
 .md_footer_content p {
 	color: white;
-	margin-bottom: 0px;
+	margin-bottom: 0
 }
 
 .modal-footer .md_button {
@@ -1388,7 +1361,7 @@ input:focus:-ms-input-placeholder {
 	transition: all 0.3s;
 	position: relative;
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 700
 }
 
 .modal-footer .md_button:before {
@@ -1396,14 +1369,14 @@ input:focus:-ms-input-placeholder {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-top: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .modal-footer .md_button:after {
@@ -1411,18 +1384,18 @@ input:focus:-ms-input-placeholder {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 0px;
-	height: 0px;
+	width: 0;
+	height: 0;
 	border-bottom: 2px solid white;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	transition: all 0.3s
 }
 
 .modal-footer .md_button:hover:before,
 .modal-footer .md_button:hover:after {
 	width: 100%;
-	height: 100%;
+	height: 100%
 }
