@@ -125,7 +125,7 @@ button:focus {
 
 .fish-body {
 	position: relative;
-	margin-top: 30px;
+	margin-top: 400px;
 	margin-left: 40px;
 	background-color: orange;
 	border-radius: 50%;
@@ -220,25 +220,65 @@ button:focus {
 	animation: up 3s infinite
 }
 
+.bubble-9 {
+	left: 1100px;
+	opacity: .2;
+	animation: up 3s infinite
+}
+
+.bubble-10 {
+	left: 1410px;
+	opacity: .3;
+	animation: up 3s infinite
+}
+
+.bubble-11 {
+	left: 1500px;
+	opacity: .1;
+	animation: up 3s infinite
+}
+
+.bubble-12 {
+	left: 1600px;
+	animation: up 5s infinite 2s
+}
+
+.bubble-13 {
+	left: 350px;
+	opacity: .2;
+	animation: up 5s infinite 1s
+}
+
+.bubble-14 {
+	left: 600px;
+	opacity: .1;
+	animation: up 5s infinite 2s
+}
+
+.bubble-14 {
+	left: 900px;
+	animation: up 5s infinite 2s
+}
+
 @keyframes swim {
 	0 {
-		transform: translateY(-50px) translateX(0) rotate(30deg)
+		transform: translateX(0)
 	}
 
 	25% {
-		transform: translateY(50px) translateX(250px) rotate(20deg)
+		transform: translateX(480px)
 	}
 
 	50% {
-		transform: translateY(100px) translateX(500px)
+		transform: translateX(960px)
 	}
 
 	75% {
-		transform: translateY(50px) translateX(850px) rotate(-20deg)
+		transform: translateX(1200px)
 	}
 
 	100% {
-		transform: translateY(-170px) translateX(1200px) rotate(-40deg)
+		transform: translateX(1440px)
 	}
 }
 

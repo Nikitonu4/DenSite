@@ -31,7 +31,7 @@
 	$('.slider1').owlCarousel({
 		loop: true,
 		autoplay: true,
-		margin: 10,
+		margin: 10
 		nav: true,
 		dots: false,
 		autoplayTimeout: 10000,
