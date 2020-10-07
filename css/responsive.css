@@ -4,10 +4,6 @@
 		width: 960px;
 	}
 
-	.menu_fixed {
-		display: none;
-	}
-
 	ul.menu {
 		display: none;
 	}
@@ -24,30 +20,6 @@
 		top: 30px;
 		right: 25px;
 		cursor: pointer;
-	}
-
-
-	.menu-toggle.on .one {
-		-moz-transform: rotate(45deg) translate(7px, 7px);
-		-ms-transform: rotate(45deg) translate(7px, 7px);
-		-webkit-transform: rotate(45deg) translate(7px, 7px);
-		transform: rotate(45deg) translate(7px, 7px);
-		background: white;
-
-	}
-
-	.menu-toggle.on .two {
-		opacity: 0;
-		background: white;
-
-	}
-
-	.menu-toggle.on .three {
-		-moz-transform: rotate(-45deg) translate(8px, -10px);
-		-ms-transform: rotate(-45deg) translate(8px, -10px);
-		-webkit-transform: rotate(-45deg) translate(8px, -10px);
-		transform: rotate(-45deg) translate(8px, -10px);
-		background: white;
 	}
 
 
@@ -94,17 +66,6 @@
 	nav ul a:hover {
 		background-color: rgba(248, 163, 53, 0.9);
 		color: white;
-	}
-
-	.menu-section.on {
-		z-index: 10000;
-		width: 100%;
-		height: 100%;
-		display: block;
-		background-color: rgba(52, 143, 146, 0.93);
-		position: fixed;
-		top: 0;
-		right: 0;
 	}
 
 	.md_progress_caption {
