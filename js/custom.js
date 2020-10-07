@@ -13,15 +13,9 @@
 			$(this).toggleClass("on");
 			$('.menu-section').toggleClass("on");
 			$('.menu-toggle').toggleClass("on");
-
 			$("nav ul").toggleClass('hidden');
-
-
 		});
-
 	});
-
-
 
 	// Menu js for Position fixed
 	$(window).scroll(function () {
@@ -40,6 +34,7 @@
 		margin: 10,
 		nav: true,
 		dots: false,
+		autoplayTimeout: 10000,
 		items: 1,
 		navText: [
 			'<img src="../images/Left Arrow.svg">',

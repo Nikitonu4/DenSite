@@ -1,6 +1,5 @@
 /*Responsive*/
 
-
 /* 992px - 1200px */
 @media screen and (max-width: 1200px) {
 	.container {
@@ -28,7 +27,6 @@
 		right: 25px;
 		cursor: pointer;
 	}
-
 
 
 	.menu-toggle.on .one {
@@ -69,8 +67,6 @@
 		-webkit-transition-duration: 0.3s;
 		transition-duration: 0.3s;
 	}
-
-
 
 	nav ul {
 		margin: 0;
@@ -201,7 +197,6 @@
 		text-align: center;
 	}
 
-
 }
 
 /* 576px - 768px */
@@ -224,6 +219,10 @@
 
 	.info_doctor {
 		margin-left: 40px;
+	}
+
+	.md_modal_form_group input {
+		width: 100%;
 	}
 
 }
