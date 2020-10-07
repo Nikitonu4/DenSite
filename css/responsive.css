@@ -1,20 +1,19 @@
-/* 992px - 1200px */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1200px) {
 	.container {
-		width: 960px;
+		width: 960px
 	}
 
 	.menu_fixed {
-		display: none;
+		display: none
 	}
 
 	ul.menu {
-		display: none;
+		display: none
 	}
 
 	.nav {
 		width: 100%;
-		justify-content: space-between;
+		justify-content: space-between
 	}
 
 	.menu-toggle {
@@ -23,23 +22,20 @@
 		position: absolute;
 		top: 30px;
 		right: 25px;
-		cursor: pointer;
+		cursor: pointer
 	}
-
 
 	.menu-toggle.on .one {
 		-moz-transform: rotate(45deg) translate(7px, 7px);
 		-ms-transform: rotate(45deg) translate(7px, 7px);
 		-webkit-transform: rotate(45deg) translate(7px, 7px);
 		transform: rotate(45deg) translate(7px, 7px);
-		background: white;
-
+		background: #fff
 	}
 
 	.menu-toggle.on .two {
 		opacity: 0;
-		background: white;
-
+		background: #fff
 	}
 
 	.menu-toggle.on .three {
@@ -47,23 +43,21 @@
 		-ms-transform: rotate(-45deg) translate(8px, -10px);
 		-webkit-transform: rotate(-45deg) translate(8px, -10px);
 		transform: rotate(-45deg) translate(8px, -10px);
-		background: white;
+		background: #fff
 	}
 
-
-
 	.one,
-	.two,
-	.three {
+	.three,
+	.two {
 		width: 100%;
 		height: 5px;
 		background: #010562;
 		margin: 6px auto;
 		backface-visibility: hidden;
-		-moz-transition-duration: 0.3s;
-		-o-transition-duration: 0.3s;
-		-webkit-transition-duration: 0.3s;
-		transition-duration: 0.3s;
+		-moz-transition-duration: .3s;
+		-o-transition-duration: .3s;
+		-webkit-transition-duration: .3s;
+		transition-duration: .3s
 	}
 
 	nav ul {
@@ -71,29 +65,29 @@
 		padding: 0;
 		list-style: none;
 		margin: 7em auto;
-		text-align: center;
+		text-align: center
 	}
 
 	nav ul.hidden {
-		display: none;
+		display: none
 	}
 
 	nav ul a {
-		-moz-transition-duration: 0.5s;
-		-o-transition-duration: 0.5s;
-		-webkit-transition-duration: 0.5s;
-		transition-duration: 0.5s;
+		-moz-transition-duration: .5s;
+		-o-transition-duration: .5s;
+		-webkit-transition-duration: .5s;
+		transition-duration: .5s;
 		text-decoration: none;
-		color: white;
+		color: #fff;
 		font-size: 34px;
 		line-height: 1.5;
 		width: 100%;
-		display: block;
+		display: block
 	}
 
 	nav ul a:hover {
-		background-color: rgba(248, 163, 53, 0.9);
-		color: white;
+		background-color: rgba(248, 163, 53, .9);
+		color: #fff
 	}
 
 	.menu-section.on {
@@ -101,187 +95,179 @@
 		width: 100%;
 		height: 100%;
 		display: block;
-		background-color: rgba(52, 143, 146, 0.93);
+		background-color: rgba(52, 143, 146, .93);
 		position: fixed;
 		top: 0;
-		right: 0;
+		right: 0
 	}
 
 	.md_progress_caption {
-		margin-bottom: 27px;
+		margin-bottom: 27px
 	}
 
 	.md_about_caption_box {
-		padding: 0;
+		padding: 0
 	}
 
 	.photo_EA {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		float: none;
+		float: none
 	}
 
 	.main_doctor_name {
 		text-align: center;
 		float: none;
-		margin-bottom: 0;
+		margin-bottom: 0
 	}
 
 	.info_doctor {
-
-
-		margin-left: 260px;
+		margin-left: 260px
 	}
 
 	.quote {
-		width: 100%;
+		width: 100%
 	}
 
 	h2.line.quote {
-		margin-top: 9px;
+		margin-top: 9px
 	}
 
 	.md_service_wrapper {
-		padding: 30px 0px 0px 0px;
+		padding: 30px 0 0 0
 	}
 
 	.md_price_links {
-		display: block;
+		display: block
 	}
 
 	.md_price_content p {
-		margin-bottom: 25px;
+		margin-bottom: 25px
 	}
 
 	.md_license_content {
-		width: auto;
+		width: auto
 	}
 
 	.md_footer_content {
-		text-align: center;
+		text-align: center
 	}
 
 	.md_license_content {
 		float: left;
 		width: 100%;
-		text-align: center;
+		text-align: center
 	}
 
 	.images .right-pic {
-		margin-top: -40px;
+		margin-top: -40px
 	}
 }
 
-/* 768px - 992px */
-@media screen and (max-width: 992px) {
+@media screen and (max-width:992px) {
 	.container {
-		width: 720px;
+		width: 720px
 	}
 
 	.info_doctor {
-		margin-left: 130px;
+		margin-left: 130px
 	}
 
 	.md_contact_form {
-		padding-left: 0;
+		padding-left: 0
 	}
 
 	.images .left-pic {
-		display: none;
+		display: none
 	}
 
 	.md_footer_content {
-		text-align: center;
+		text-align: center
 	}
-
 }
 
-/* 576px - 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
 	.container {
-		width: 540px;
+		width: 540px
 	}
 
 	.md_navigation_app_button {
-		display: none;
+		display: none
 	}
 
 	.md_slider_bg_content h1 {
-		margin-top: 0;
+		margin-top: 0
 	}
 
 	.md_slider_bg_content {
-		padding-left: 0;
+		padding-left: 0
 	}
 
 	.info_doctor {
-		margin-left: 40px;
+		margin-left: 40px
 	}
 
 	.md_modal_form_group input {
-		width: 100%;
+		width: 100%
 	}
-
 }
 
-/* 320px - 576px */
-@media screen and (max-width: 576px) {
+@media screen and (max-width:576px) {
 	.container {
-		width: 90%;
+		width: 90%
 	}
-
 
 	.md_slider_bg1,
 	.md_slider_bg2,
 	.md_slider_bg3 {
-		padding-top: 0px;
+		padding-top: 0
 	}
 
 	.md_slider_bg_content h1 {
 		font-size: 37px;
-		margin-top: 80px;
+		margin-top: 80px
 	}
 
 	.contacts {
-		display: none;
+		display: none
 	}
 
 	.nav {
-		justify-content: flex-start;
+		justify-content: flex-start
 	}
 
 	.main_doctor_name {
 		text-align: center;
 		margin-left: 0;
-		margin-right: 0;
+		margin-right: 0
 	}
 
 	.quote {
 		font-size: 18px;
-		font-style: italic;
+		font-style: italic
 	}
 
 	.buttons_review {
-		flex-direction: column;
+		flex-direction: column
 	}
 
 	.md_footer_wrapper {
-		margin-top: 60px;
+		margin-top: 60px
 	}
 
 	.button_rev1,
 	.button_rev2 {
 		width: 250px;
 		margin: 0;
-		margin-bottom: 20px;
+		margin-bottom: 20px
 	}
 
 	.button_rev1 {
-		box-shadow: 0px 4px 10px #F8A335;
+		box-shadow: 0 4px 10px #f8a335
 	}
 
 	.button_rev2 {
-		box-shadow: 0px 4px 10px #348F92;
+		box-shadow: 0 4px 10px #348f92
 	}
 }

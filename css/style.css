@@ -1,5 +1,5 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-size: 14px;
 	color: #010562;
 	margin: 0;
@@ -17,15 +17,15 @@ a {
 	cursor: pointer
 }
 
-a:hover,
-a:focus {
+a:focus,
+a:hover {
 	color: #010562;
 	text-decoration: none
 }
 
 h1 {
 	font-size: 34px;
-	font-weight: bold
+	font-weight: 700
 }
 
 h2 {
@@ -37,7 +37,7 @@ h3 {
 }
 
 a:focus {
-	outline: none
+	outline: 0
 }
 
 h1,
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: Montserrat, sans-serif;
 	font-weight: 400;
 	line-height: 1.1;
 	color: #010562
@@ -58,30 +58,30 @@ h6 {
 }
 
 input {
-	outline: none
+	outline: 0
 }
 
 input:focus {
-	outline: none !important;
+	outline: 0 !important;
 	box-shadow: none !important
 }
 
 textarea {
-	outline: none
+	outline: 0
 }
 
 textarea:focus {
-	outline: none;
+	outline: 0;
 	box-shadow: none
 }
 
 button {
-	outline: none;
-	background-color: #006A91
+	outline: 0;
+	background-color: #006a91
 }
 
 button:focus {
-	outline: none;
+	outline: 0;
 	box-shadow: none
 }
 
@@ -99,7 +99,7 @@ button:focus {
 
 .md_button {
 	padding: 5px 25px;
-	background: #FFA552;
+	background: #ffa552;
 	border: none;
 	color: #fff;
 	font-size: 15px
@@ -138,7 +138,7 @@ button:focus {
 	margin-left: 100px;
 	margin-top: 20px;
 	z-index: 1;
-	background-color: white;
+	background-color: #fff;
 	border-radius: 50%;
 	width: 20px;
 	height: 20px
@@ -149,7 +149,7 @@ button:focus {
 	z-index: 2;
 	margin-left: 5px;
 	margin-top: 5px;
-	background-color: black;
+	background-color: #000;
 	border-radius: 50%;
 	height: 10px;
 	width: 10px
@@ -174,9 +174,9 @@ button:focus {
 	bottom: 0;
 	z-index: 5;
 	margin-right: 50px;
-	background-color: white;
+	background-color: #fff;
 	border-radius: 50%;
-	opacity: .50;
+	opacity: .5;
 	width: 40px;
 	height: 40px;
 	animation: up 4s infinite
@@ -189,7 +189,7 @@ button:focus {
 
 .bubble-3 {
 	left: 750px;
-	opacity: .30;
+	opacity: .3;
 	animation: up 5s infinite
 }
 
@@ -205,7 +205,7 @@ button:focus {
 
 .bubble-6 {
 	left: 300px;
-	opacity: .30;
+	opacity: .3;
 	animation: up 3s infinite
 }
 
@@ -216,7 +216,7 @@ button:focus {
 
 .bubble-8 {
 	left: 1050px;
-	opacity: .30;
+	opacity: .3;
 	animation: up 3s infinite
 }
 
@@ -262,8 +262,8 @@ button:focus {
 	-o-transform: translate(-50%, -50%)
 }
 
-header ul,
-header li {
+header li,
+header ul {
 	display: block;
 	padding: 0;
 	margin: 0
@@ -286,12 +286,12 @@ header li {
 .menu li a {
 	text-transform: uppercase;
 	font-size: 15px;
-	letter-spacing: 0.1em;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	letter-spacing: .1em;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
 .menu li {
@@ -303,7 +303,7 @@ header li {
 }
 
 .menu-open {
-	background: none;
+	background: 0 0;
 	border: none;
 	margin-left: 20px;
 	display: none
@@ -331,7 +331,7 @@ ul.menu li a {
 	display: block;
 	padding: 8px 3px;
 	text-decoration: none;
-	transition: 0.5s;
+	transition: .5s;
 	overflow: hidden
 }
 
@@ -342,8 +342,8 @@ ul.menu li a::before {
 	left: -100%;
 	width: 100%;
 	height: 4px;
-	background: #FFA552;
-	transition: 0.5s
+	background: #ffa552;
+	transition: .5s
 }
 
 ul.menu li a:hover {
@@ -378,18 +378,18 @@ ul.menu li a:hover::before {
 }
 
 .md_navigation_app_button .md_app_button {
-	background: #FFA552;
+	background: #ffa552;
 	border: none;
 	font-size: 14px;
 	padding: 10px 15px;
 	color: #fff;
 	float: right;
 	border: 3px solid transparent;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 	position: relative;
 	font-style: normal;
 	font-weight: 700
@@ -402,12 +402,12 @@ ul.menu li a:hover::before {
 	right: 0;
 	width: 0;
 	height: 0;
-	border-top: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-top: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
 .md_navigation_app_button .md_app_button:after {
@@ -417,16 +417,16 @@ ul.menu li a:hover::before {
 	left: 0;
 	width: 0;
 	height: 0;
-	border-bottom: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-bottom: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
-.md_navigation_app_button .md_app_button:hover:before,
-.md_navigation_app_button .md_app_button:hover:after {
+.md_navigation_app_button .md_app_button:hover:after,
+.md_navigation_app_button .md_app_button:hover:before {
 	width: 100%;
 	height: 100%
 }
@@ -435,7 +435,7 @@ ul.menu li a:hover::before {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background: white;
+	background: #fff;
 	z-index: 1000;
 	box-shadow: 0 -5px 20px
 }
@@ -446,11 +446,11 @@ ul.menu li a:hover::before {
 	-ms-transform: scale(0);
 	-o-transform: scale(0);
 	transform: scale(0);
-	-webkit-transition: all 0.25s ease;
-	-moz-transition: all 0.25s ease;
-	-ms-transition: all 0.25s ease;
-	-o-transition: all 0.25s ease;
-	transition: all 0.25s ease
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease
 }
 
 .modal.in {
@@ -474,7 +474,7 @@ ul.menu li a:hover::before {
 
 .modal-content {
 	border-radius: 0;
-	background: #AEDADD
+	background: #aedadd
 }
 
 .modal-header h4 {
@@ -493,11 +493,11 @@ ul.menu li a:hover::before {
 
 .md_modal_form_group {
 	margin: 15px 60px;
-	color: #A7A7A7
+	color: #a7a7a7
 }
 
 .md_modal_form_group input:focus {
-	outline: none;
+	outline: 0;
 	box-shadow: none
 }
 
@@ -510,48 +510,48 @@ ul.menu li a:hover::before {
 	flex-direction: column
 }
 
-input[type="text"]::placeholder {
-	color: rgba(167, 167, 167, 1)
+input[type=text]::placeholder {
+	color: #a7a7a7
 }
 
 input::-webkit-input-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 input::-moz-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 input:-moz-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 input:-ms-input-placeholder {
 	opacity: 1;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 input:focus::-webkit-input-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 input:focus::-moz-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 input:focus:-moz-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 input:focus:-ms-input-placeholder {
 	opacity: 0;
-	transition: opacity 0.1s ease
+	transition: opacity .1s ease
 }
 
 .md_slider_wrapper {
@@ -562,11 +562,11 @@ input:focus:-ms-input-placeholder {
 .md_slider_bg1 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
-	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4084.jpg);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4084.jpg);
+	background: -moz-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4084.jpg);
+	background: -ms-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4084.jpg);
+	background: -o-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4084.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4084.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -578,11 +578,11 @@ input:focus:-ms-input-placeholder {
 .md_slider_bg2 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
-	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_3995.jpg);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_3995.jpg);
+	background: -moz-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_3995.jpg);
+	background: -ms-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_3995.jpg);
+	background: -o-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_3995.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_3995.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -594,11 +594,11 @@ input:focus:-ms-input-placeholder {
 .md_slider_bg3 {
 	float: left;
 	width: 100%;
-	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
-	background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
-	background: -ms-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
-	background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../photos/slider/IMG_4003.jpg);
+	background: -webkit-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4003.jpg);
+	background: -moz-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4003.jpg);
+	background: -ms-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4003.jpg);
+	background: -o-linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4003.jpg);
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../photos/slider/IMG_4003.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -608,14 +608,14 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_slider_bg_content h1 {
-	color: white;
-	font-weight: bold;
+	color: #fff;
+	font-weight: 700;
 	line-height: 1.3;
 	font-size: 50px
 }
 
 .md_slider_bg_content p {
-	color: white;
+	color: #fff;
 	font-size: 20px;
 	font-style: italic;
 	margin-bottom: 30px
@@ -656,7 +656,7 @@ input:focus:-ms-input-placeholder {
 
 .md_about_caption_content h1 {
 	margin-top: 0;
-	font-weight: bold
+	font-weight: 700
 }
 
 .md_about_caption_content h1 span {
@@ -685,11 +685,11 @@ input:focus:-ms-input-placeholder {
 	padding: 10px 10px;
 	border-radius: 100px;
 	margin-top: 20px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
 .md_about_caption_icons:hover .md_about_icon {
@@ -706,7 +706,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_about_caption_icons .md_about_icon_content h2 {
-	font-weight: bold
+	font-weight: 700
 }
 
 .md_about_caption_icons .md_about_icon_content p {
@@ -723,7 +723,7 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	padding: 20px 0 50px 0;
-	background-color: rgb(188, 232, 233, 0.54)
+	background-color: rgb(188, 232, 233, .54)
 }
 
 .md_progress_heading img {
@@ -740,7 +740,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_progress_heading h1 {
-	font-weight: bold
+	font-weight: 700
 }
 
 .md_progress_heading p {
@@ -754,11 +754,11 @@ input:focus:-ms-input-placeholder {
 	-ms-transform: rotateY(180deg);
 	-o-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
 .md_progress_caption {
@@ -768,7 +768,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_progress_caption h2 {
-	font-weight: bold;
+	font-weight: 700;
 	margin-top: 20px
 }
 
@@ -784,7 +784,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_team_heading h1 {
-	font-weight: bold;
+	font-weight: 700;
 	text-align: center;
 	margin-bottom: 50px;
 	margin-top: 20px
@@ -807,7 +807,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .line {
-	border-left: 8px solid #DBF2F3;
+	border-left: 8px solid #dbf2f3;
 	padding-left: 10px
 }
 
@@ -836,7 +836,7 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	padding: 30px 0 60px 0;
-	background-color: #DCF3F3
+	background-color: #dcf3f3
 }
 
 .md_service_heading img {
@@ -854,7 +854,7 @@ input:focus:-ms-input-placeholder {
 
 .md_service_heading h2 {
 	font-size: 34px;
-	font-weight: bold
+	font-weight: 700
 }
 
 .md_service_heading p {
@@ -870,7 +870,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_service_caption h4 {
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 22px;
 	margin: 10px 0;
 	margin-top: 20px
@@ -900,7 +900,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_price_content h1 {
-	font-weight: bold;
+	font-weight: 700;
 	margin-bottom: 50px;
 	margin-top: 50px
 }
@@ -952,7 +952,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_insurance_content h1 {
-	font-weight: bold;
+	font-weight: 700;
 	margin-bottom: 50px
 }
 
@@ -969,11 +969,11 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_insurance_button .md_button {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 	position: relative;
 	border: 3px solid transparent;
 	font-weight: 700
@@ -986,12 +986,12 @@ input:focus:-ms-input-placeholder {
 	right: 0;
 	width: 0;
 	height: 0;
-	border-top: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-top: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
 .md_insurance_button .md_button:after {
@@ -1001,23 +1001,23 @@ input:focus:-ms-input-placeholder {
 	left: 0;
 	width: 0;
 	height: 0;
-	border-bottom: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-bottom: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
-.md_insurance_button .md_button:hover:before,
-.md_insurance_button .md_button:hover:after {
+.md_insurance_button .md_button:hover:after,
+.md_insurance_button .md_button:hover:before {
 	width: 100%;
 	height: 100%
 }
 
 .md_insurance_button .md_button a {
 	font-size: 20px;
-	font-weight: bold
+	font-weight: 700
 }
 
 .md_gallery_wrapper {
@@ -1030,7 +1030,7 @@ input:focus:-ms-input-placeholder {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 50px;
-	font-weight: bold
+	font-weight: 700
 }
 
 .md_review_wrapper {
@@ -1054,7 +1054,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_review_content h1 {
-	font-weight: bold
+	font-weight: 700
 }
 
 .other_reviews {
@@ -1071,39 +1071,39 @@ input:focus:-ms-input-placeholder {
 }
 
 .button_rev1 {
-	background: #F8A335;
-	box-shadow: 0 4px 20px #F8A335;
+	background: #f8a335;
+	box-shadow: 0 4px 20px #f8a335;
 	padding: 18.05px 34.32px;
-	color: white;
+	color: #fff;
 	text-align: center;
 	text-decoration: none
 }
 
 .button_rev2 {
-	background: #348F92;
-	box-shadow: 0 4px 20px #348F92;
+	background: #348f92;
+	box-shadow: 0 4px 20px #348f92;
 	padding: 18.05px 23.32px;
 	text-align: center;
-	color: white;
+	color: #fff;
 	margin-right: 50px;
 	text-decoration: none
 }
 
 .button_rev1:hover {
-	color: white;
-	box-shadow: 0 4px 50px #F8A335;
-	transition: all 0.3s
+	color: #fff;
+	box-shadow: 0 4px 50px #f8a335;
+	transition: all .3s
 }
 
 .button_rev2:hover {
-	color: white;
-	box-shadow: 0 4px 50px #348F92;
-	transition: all 0.3s
+	color: #fff;
+	box-shadow: 0 4px 50px #348f92;
+	transition: all .3s
 }
 
 .button_rev1:visited,
 .button_rev2:visited {
-	color: white
+	color: #fff
 }
 
 .rev1,
@@ -1143,7 +1143,7 @@ input:focus:-ms-input-placeholder {
 	float: left;
 	width: 100%;
 	padding-top: 50px;
-	background: #0F4C4F
+	background: #0f4c4f
 }
 
 .md_contact {
@@ -1160,26 +1160,26 @@ input:focus:-ms-input-placeholder {
 
 .md_contact_form h4 {
 	margin-top: 0;
-	color: white;
-	font-weight: bold;
-	border-bottom: 1px solid #BBE3DC;
+	color: #fff;
+	font-weight: 700;
+	border-bottom: 1px solid #bbe3dc;
 	padding-bottom: 15px;
 	margin-bottom: 20px
 }
 
 .md_contact_form input {
-	background: none;
+	background: 0 0;
 	border-radius: 0;
 	height: 40px;
-	border: 1px solid #BBE3DC;
+	border: 1px solid #bbe3dc;
 	margin-bottom: 20px;
-	color: #BBE3DC;
-	font-weight: bold;
+	color: #bbe3dc;
+	font-weight: 700;
 	font-style: italic
 }
 
 .md_contact_form input:focus {
-	border-color: #BBE3DC
+	border-color: #bbe3dc
 }
 
 .md_contact_form button {
@@ -1187,12 +1187,12 @@ input:focus:-ms-input-placeholder {
 	height: 45px;
 	position: relative;
 	width: 170px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
-	background-color: #FFA552;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	background-color: #ffa552;
 	border: 3px solid transparent;
 	font-weight: 700;
 	font-size: 15px;
@@ -1206,12 +1206,12 @@ input:focus:-ms-input-placeholder {
 	right: 0;
 	width: 0;
 	height: 0;
-	border-top: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-top: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
 .md_contact_form button:after {
@@ -1221,22 +1221,22 @@ input:focus:-ms-input-placeholder {
 	left: 0;
 	width: 0;
 	height: 0;
-	border-bottom: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-bottom: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
-.md_contact_form button:hover:before,
-.md_contact_form button:hover:after {
+.md_contact_form button:hover:after,
+.md_contact_form button:hover:before {
 	width: 100%;
 	height: 100%
 }
 
 .md_contact_form button a {
-	color: white;
+	color: #fff;
 	font-size: 18px
 }
 
@@ -1248,9 +1248,9 @@ input:focus:-ms-input-placeholder {
 
 .md_contact_hour h4 {
 	margin-top: 0;
-	color: white;
-	font-weight: bold;
-	border-bottom: 2px solid #BBE3DC;
+	color: #fff;
+	font-weight: 700;
+	border-bottom: 2px solid #bbe3dc;
 	padding-bottom: 15px;
 	margin-bottom: 20px
 }
@@ -1262,7 +1262,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_contact_hour ul li {
-	color: white;
+	color: #fff;
 	font-style: italic;
 	font-size: 16px;
 	margin-bottom: 10px
@@ -1285,9 +1285,9 @@ input:focus:-ms-input-placeholder {
 
 .md_contact_address h4 {
 	margin-top: 0;
-	color: white;
-	font-weight: bold;
-	border-bottom: 2px solid #BBE3DC;
+	color: #fff;
+	font-weight: 700;
+	border-bottom: 2px solid #bbe3dc;
 	padding-bottom: 15px;
 	margin-bottom: 20px
 }
@@ -1309,20 +1309,20 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_contact_address_content p {
-	color: white;
+	color: #fff;
 	font-size: 16px;
 	font-style: italic;
 	margin-bottom: 0
 }
 
 .md_contact_address_content p a {
-	color: white
+	color: #fff
 }
 
 .md_footer {
 	float: left;
 	width: 100%;
-	border-top: 1px solid #BBE3DC;
+	border-top: 1px solid #bbe3dc;
 	padding: 30px 0
 }
 
@@ -1337,28 +1337,28 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_license_content a {
-	color: white;
+	color: #fff;
 	margin-bottom: 0;
 	text-decoration: underline
 }
 
 .md_footer_content p {
-	color: white;
+	color: #fff;
 	margin-bottom: 0
 }
 
 .modal-footer .md_button {
-	background: #FFA552;
+	background: #ffa552;
 	border: none;
 	font-size: 14px;
 	padding: 10px 15px;
 	color: #fff;
 	border: 3px solid transparent;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 	position: relative;
 	font-style: normal;
 	font-weight: 700
@@ -1371,12 +1371,12 @@ input:focus:-ms-input-placeholder {
 	right: 0;
 	width: 0;
 	height: 0;
-	border-top: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-top: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
 .modal-footer .md_button:after {
@@ -1386,16 +1386,16 @@ input:focus:-ms-input-placeholder {
 	left: 0;
 	width: 0;
 	height: 0;
-	border-bottom: 2px solid white;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s
+	border-bottom: 2px solid #fff;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
 }
 
-.modal-footer .md_button:hover:before,
-.modal-footer .md_button:hover:after {
+.modal-footer .md_button:hover:after,
+.modal-footer .md_button:hover:before {
 	width: 100%;
 	height: 100%
 }
