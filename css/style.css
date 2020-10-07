@@ -1263,7 +1263,7 @@ input:focus:-ms-input-placeholder {
 	background: -ms-linear-gradient url(../images/gift_bg.jpg);
 	background: -o-linear-gradient url(../images/gift_bg.jpg);
 	background: linear-gradient(rgba(7, 188, 131, 0), rgba(7, 188, 131, 0)),
-		url(../images/gift_bg.jpg);
+		url(../images/gift_bg.JPG);
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: bottom;
