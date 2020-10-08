@@ -1,6 +1,5 @@
 	// Preloader 
 	jQuery(window).on('load', function () {
-		jQuery("#status").fadeOut(2000);
 		jQuery("#preloader").delay(1800).fadeOut("slow");
 	});
 
@@ -31,7 +30,7 @@
 	$('.slider1').owlCarousel({
 		loop: true,
 		autoplay: true,
-		margin: 10
+		margin: 10,
 		nav: true,
 		dots: false,
 		autoplayTimeout: 10000,
@@ -43,7 +42,7 @@
 		responsive: {
 			0: {
 				items: 1,
-				nav: false,
+				nav: false
 				dots: true,
 			},
 			600: {
