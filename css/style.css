@@ -110,7 +110,6 @@ button:focus {
 	bottom: 0;
 	left: 0;
 	position: fixed;
-	/* position: relative; */
 	right: 0;
 	top: 0;
 	z-index: 2147483647;
@@ -118,39 +117,23 @@ button:focus {
 	height: 100%
 }
 
-/* .fish {
-	width: 75px;
-	height: 50px;
-	animation: swim 3s infinite linear;
-
-	position: absolute;
-	top: 40%;
-	transform: translateY(-50%);
-} */
-
 .fish {
-	/* background: url('../images/fish.png') no-repeat; */
 	height: 100px;
 	width: 150px;
 	position: absolute;
-	/* top: 50px; */
-
 	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
-	/* transition: left 10s; */
-	animation: fish 3s linear infinite;
+	animation: fish 3s linear infinite
 }
 
 @keyframes fish {
 	0% {
 		left: 0px;
-		/* transform: translateX(0) */
 	}
 
 	50% {
 		left: 300px;
-		/* transform: translateX(480px) */
 	}
 
 	100% {
@@ -170,53 +153,6 @@ button:focus {
 	100% {
 		transform: scale(-1, 1)
 	}
-}
-
-.fish-body {
-	position: relative;
-	/* margin-top: 400px; */
-	margin-left: 40px;
-	background-color: orange;
-	border-radius: 50%;
-	width: 75px;
-	height: 50px
-}
-
-.eye {
-	position: absolute;
-	margin-left: 50px;
-	margin-top: 20px;
-	z-index: 1;
-	background-color: #fff;
-	border-radius: 50%;
-	width: 10px;
-	height: 10px
-}
-
-.pupil {
-	position: absolute;
-	z-index: 2;
-	margin-left: 2.5px;
-	margin-top: 2.5px;
-	background-color: #000;
-	border-radius: 50%;
-	height: 5px;
-	width: 5px
-}
-
-.fin {
-	margin-top: -50px;
-	margin-left: 5px;
-	background-color: orange;
-	border-radius: 50%;
-	transform: rotate(40deg);
-	width: 40px;
-	height: 25px
-}
-
-.fin-bottom {
-	margin-top: -10px;
-	transform: rotate(-40deg)
 }
 
 .bubbles {
@@ -308,28 +244,6 @@ button:focus {
 .bubble-14 {
 	left: 900px;
 	animation: up 5s infinite 2s
-}
-
-@keyframes swim {
-	0 {
-		transform: translateX(0)
-	}
-
-	25% {
-		transform: translateX(480px)
-	}
-
-	50% {
-		transform: translateX(960px)
-	}
-
-	75% {
-		transform: translateX(1200px)
-	}
-
-	100% {
-		transform: translateX(1440px)
-	}
 }
 
 @keyframes up {
