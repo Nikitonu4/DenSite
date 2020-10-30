@@ -13,7 +13,7 @@ if((isset($_POST['name'])&&$_POST['name']!="")&&(isset($_POST['phone'])&&$_POST[
                     </body>
                 </html>'; //Текст нащего сообщения можно использовать HTML теги
         $headers  = "Content-type: text/html; charset=utf-8 \r\n"; //Кодировка письма
-        $headers .= "From: Отправитель <batogov2000@mail.ru>\r\n"; //Наименование и почта отправителя
+        $headers .= "From: Отправитель <info@zolotayaribkateeth.ru>\r\n"; //Наименование и почта отправителя
         mail($to, $subject, $message, $headers); //Отправка письма с помощью функции mail
 }
 ?>

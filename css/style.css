@@ -285,7 +285,7 @@ header ul {
 }
 
 .menu li {
-	margin-right: 40px
+	margin-right: 35px
 }
 
 .menu li:last-child {
@@ -430,80 +430,6 @@ ul.menu li a:hover::before {
 	box-shadow: 0 -5px 20px
 }
 
-.modal {
-	-webkit-transform: scale(0);
-	-moz-transform: scale(0);
-	-ms-transform: scale(0);
-	-o-transform: scale(0);
-	transform: scale(0);
-	-webkit-transition: all .25s ease;
-	-moz-transition: all .25s ease;
-	-ms-transition: all .25s ease;
-	-o-transition: all .25s ease;
-	transition: all .25s ease
-}
-
-.modal.in {
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-ms-transform: scale(1);
-	-o-transform: scale(1);
-	transform: scale(1)
-}
-
-.modal-dialog {
-	margin: 0;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%) !important;
-	-moz-transform: translate(-50%, -50%) !important;
-	-ms-transform: translate(-50%, -50%) !important;
-	-o-transform: translate(-50%, -50%) !important;
-	transform: translate(-50%, -50%) !important
-}
-
-.modal-content {
-	border-radius: 0;
-	background: #aedadd
-}
-
-.modal-header h4 {
-	font-weight: 600;
-	text-align: center;
-	margin-top: 5px
-}
-
-.md_modal_form_group input {
-	height: 45px;
-	width: 440px;
-	margin: 15px 0;
-	border: none;
-	border-radius: 0
-}
-
-.md_modal_form_group {
-	margin: 15px 60px;
-	color: #a7a7a7
-}
-
-.md_modal_form_group input:focus {
-	outline: 0;
-	box-shadow: none
-}
-
-.modal-footer {
-	text-align: center
-}
-
-.modal-body .row {
-	display: flex;
-	flex-direction: column
-}
-
-input[type=text]::placeholder {
-	color: #a7a7a7
-}
-
 input::-webkit-input-placeholder {
 	opacity: 1;
 	transition: opacity .1s ease
@@ -615,12 +541,51 @@ input:focus:-ms-input-placeholder {
 	padding-left: 50px
 }
 
+.news_wrapper {
+	display: flex;
+	width: 100%;
+	background: #fff;
+	margin: 40px 0;
+	border-bottom: 1px solid #1AE5BE;
+}
+
+.news_heading h1 {
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 20px
+}
+
+.news-blocks{
+	display: flex;
+	flex-direction: column;
+}
+
+.news-section{
+	display: flex;
+	margin-left: 40px;
+	margin-bottom: 67px;
+}
+
+.news-block-text{
+	margin-left: 54px;
+}
+
+.news-date p{
+	color: #FFA552;
+	font-weight: 300
+}
+
+.news-main-text span{
+	color: #FFA552;
+	font-weight: 700;
+}
+
 .md_about_wrapper {
 	float: left;
 	width: 100%;
 	background: url(../images/bg_about.jpg);
 	background-repeat: no-repeat;
-	margin: 40px 0
 }
 
 .md_about_caption_box {
@@ -667,7 +632,7 @@ input:focus:-ms-input-placeholder {
 .md_about_caption_icons {
 	float: left;
 	width: 100%;
-	margin-top: 30px
+	margin-top: 30px;
 }
 
 .md_about_caption_icons .md_about_icon {
@@ -916,6 +881,11 @@ input:focus:-ms-input-placeholder {
 	text-decoration: underline
 }
 
+.md_insurance_wrapper a:focus,
+.md_insurance_wrapper a:hover{
+	color: #fff;
+}
+
 .md_insurance_wrapper {
 	float: left;
 	width: 100%;
@@ -997,12 +967,14 @@ input:focus:-ms-input-placeholder {
 	-ms-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s
+	color:#fff;
 }
 
 .md_insurance_button .md_button:hover:after,
 .md_insurance_button .md_button:hover:before {
 	width: 100%;
 	height: 100%
+	color:#fff;
 }
 
 .md_insurance_button .md_button a {
@@ -1308,6 +1280,122 @@ input:focus:-ms-input-placeholder {
 .md_contact_address_content p a {
 	color: #fff
 }
+
+.call_wrapper {
+  background-color: #aedadd;
+  float: left;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.success_wrapper{
+	display: none;
+	float: left;
+	width: 100%;
+	background-color:white;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.success h1{
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+h1.call_heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+#call_form {
+  max-width: 340px;
+  margin: 0 auto;
+  margin-top: 57px;
+}
+
+.input {
+  width: 100%;
+  height: 47px;
+  margin-bottom: 16px;
+  border: 1px solid #bbbbbb;
+  padding-left: 25px;
+}
+
+input[type="text"]::placeholder {
+  color: #a7a7a7;
+}
+
+.call_wrapper input[type="text"]::placeholder {
+  color: #a7a7a7;
+}
+
+.call_wrapper input[type="tel"]::placeholder {
+  color: #a7a7a7;
+}
+
+.md_call_button {
+  float: left;
+  width: 100%;
+}
+
+.md_call_button .md_button {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+  border: 3px solid transparent;
+  font-weight: 700;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.md_call_button .md_button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 2px solid #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.md_call_button .md_button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 2px solid #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.md_call_button .md_button:hover:after,
+.md_call_button .md_button:hover:before {
+  width: 100%;
+  height: 100%;
+}
+
+.md_call_button .md_button a {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* форма кончилась */
 
 .md_footer {
 	float: left;
