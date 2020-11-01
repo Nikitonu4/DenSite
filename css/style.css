@@ -556,27 +556,27 @@ input:focus:-ms-input-placeholder {
 	margin-top: 20px
 }
 
-.news-blocks{
+.news-blocks {
 	display: flex;
 	flex-direction: column;
 }
 
-.news-section{
+.news-section {
 	display: flex;
 	margin-left: 40px;
 	margin-bottom: 67px;
 }
 
-.news-block-text{
+.news-block-text {
 	margin-left: 54px;
 }
 
-.news-date p{
+.news-date p {
 	color: #FFA552;
 	font-weight: 300
 }
 
-.news-main-text span{
+.news-main-text span {
 	color: #FFA552;
 	font-weight: 700;
 }
@@ -882,7 +882,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .md_insurance_wrapper a:focus,
-.md_insurance_wrapper a:hover{
+.md_insurance_wrapper a:hover {
 	color: #fff;
 }
 
@@ -966,15 +966,13 @@ input:focus:-ms-input-placeholder {
 	-moz-transition: all .3s;
 	-ms-transition: all .3s;
 	-o-transition: all .3s;
-	transition: all .3s
-	color:#fff;
+	transition: all .3s color:#fff;
 }
 
 .md_insurance_button .md_button:hover:after,
 .md_insurance_button .md_button:hover:before {
 	width: 100%;
-	height: 100%
-	color:#fff;
+	height: 100% color:#fff;
 }
 
 .md_insurance_button .md_button a {
@@ -1282,117 +1280,117 @@ input:focus:-ms-input-placeholder {
 }
 
 .call_wrapper {
-  background-color: #aedadd;
-  float: left;
-  width: 100%;
-  padding: 30px 0;
+	background-color: #aedadd;
+	float: left;
+	width: 100%;
+	padding: 30px 0;
 }
 
-.success_wrapper{
+.success_wrapper {
 	display: none;
 	float: left;
 	width: 100%;
-	background-color:white;
-	margin-bottom:10px;
-	text-align:center;
+	background-color: white;
+	margin-bottom: 10px;
+	text-align: center;
 }
 
-.success h1{
-  width: 100%;
-  text-align: center;
-  font-weight: 700;
+.success h1 {
+	width: 100%;
+	text-align: center;
+	font-weight: 700;
 }
 
 h1.call_heading {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 50px;
-  font-weight: 700;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+	font-weight: 700;
 }
 
 #call_form {
-  max-width: 340px;
-  margin: 0 auto;
-  margin-top: 57px;
+	max-width: 340px;
+	margin: 0 auto;
+	margin-top: 57px;
 }
 
 .input {
-  width: 100%;
-  height: 47px;
-  margin-bottom: 16px;
-  border: 1px solid #bbbbbb;
-  padding-left: 25px;
+	width: 100%;
+	height: 47px;
+	margin-bottom: 16px;
+	border: 1px solid #bbbbbb;
+	padding-left: 25px;
 }
 
 input[type="text"]::placeholder {
-  color: #a7a7a7;
+	color: #a7a7a7;
 }
 
 .call_wrapper input[type="text"]::placeholder {
-  color: #a7a7a7;
+	color: #a7a7a7;
 }
 
 .call_wrapper input[type="tel"]::placeholder {
-  color: #a7a7a7;
+	color: #a7a7a7;
 }
 
 .md_call_button {
-  float: left;
-  width: 100%;
+	float: left;
+	width: 100%;
 }
 
 .md_call_button .md_button {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-  position: relative;
-  border: 3px solid transparent;
-  font-weight: 700;
-  left: 50%;
-  transform: translate(-50%, 0);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+	border: 3px solid transparent;
+	font-weight: 700;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 
 .md_call_button .md_button:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-top: 2px solid #fff;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 2px solid #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .md_call_button .md_button:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-bottom: 2px solid #fff;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-bottom: 2px solid #fff;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .md_call_button .md_button:hover:after,
 .md_call_button .md_button:hover:before {
-  width: 100%;
-  height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
 .md_call_button .md_button a {
-  font-size: 20px;
-  font-weight: 700;
+	font-size: 20px;
+	font-weight: 700;
 }
 
 /* форма кончилась */
